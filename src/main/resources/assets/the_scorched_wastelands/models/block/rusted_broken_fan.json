@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/rusted_brokenvent",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/rusted_brokenfan",
+    "particle": "the_scorched_wastelands:blocks/rusted_brokenfan",
+    "0": "the_scorched_wastelands:blocks/rusted_brokenfan"
+  }
+}

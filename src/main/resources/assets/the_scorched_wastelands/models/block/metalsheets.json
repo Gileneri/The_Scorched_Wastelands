@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_scorched_wastelands:blocks/metal_sheet_top",
+    "up": "the_scorched_wastelands:blocks/metal_sheet_top",
+    "north": "the_scorched_wastelands:blocks/metal_sheet",
+    "east": "the_scorched_wastelands:blocks/metal_sheet",
+    "south": "the_scorched_wastelands:blocks/metal_sheet",
+    "west": "the_scorched_wastelands:blocks/metal_sheet",
+    "particle": "the_scorched_wastelands:blocks/metal_sheet_top"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "scorched_bench"
+      },
+      "name": "default"
+    }
+  }
+}

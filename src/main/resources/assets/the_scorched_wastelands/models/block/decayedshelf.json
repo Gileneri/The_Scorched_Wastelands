@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/rusted_shelf_model",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/decayed_shelf",
+    "particle": "the_scorched_wastelands:blocks/decayed_shelf",
+    "0": "the_scorched_wastelands:blocks/decayed_shelf"
+  }
+}

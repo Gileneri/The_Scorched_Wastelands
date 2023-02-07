@@ -1,0 +1,42 @@
+newmtl RGB_372A23
+	Ka 0.0 0.0 0.0
+	Kd .2157 .1647 .1373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1C1512
+	Ka 0.0 0.0 0.0
+	Kd .1098 .0824 .0706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5C483C
+	Ka 0.0 0.0 0.0
+	Kd .3608 .2824 .2353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_749CBD
+	Ka 0.0 0.0 0.0
+	Kd .4549 .6118 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_29404D
+	Ka 0.0 0.0 0.0
+	Kd .1608 .251 .302
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_746153
+	Ka 0.0 0.0 0.0
+	Kd .4549 .3804 .3255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+

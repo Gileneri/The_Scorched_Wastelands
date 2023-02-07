@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_scorched_wastelands:block/wreckedcontrolpanel"
+    },
+    "facing=east": {
+      "model": "the_scorched_wastelands:block/wreckedcontrolpanel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_scorched_wastelands:block/wreckedcontrolpanel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_scorched_wastelands:block/wreckedcontrolpanel",
+      "y": 270
+    }
+  }
+}

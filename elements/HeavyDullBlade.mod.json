@@ -1,0 +1,33 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "heavy_dull_blade",
+    "customModelName": "heavy_dull_blade:default",
+    "name": "Heavy Dull Blade",
+    "specialInfo": [
+      "Life cuts with weight..."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 2.0,
+    "attackSpeed": 0.5,
+    "enchantability": 20,
+    "damageVsEntity": 7777.0,
+    "usageCount": 50000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.NETHERITE_BLOCK"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

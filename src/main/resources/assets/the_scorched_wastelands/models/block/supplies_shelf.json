@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/suppliesshelf_rework",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/reworked",
+    "particle": "the_scorched_wastelands:blocks/reworked",
+    "1": "the_scorched_wastelands:blocks/reworked"
+  }
+}

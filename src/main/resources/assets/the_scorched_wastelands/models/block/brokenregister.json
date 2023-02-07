@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/broken_register",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/broken_register",
+    "particle": "the_scorched_wastelands:blocks/broken_register",
+    "0": "the_scorched_wastelands:blocks/broken_register"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "":  [
+	{"model": "the_scorched_wastelands:block/junkpile"},
+	{"model": "the_scorched_wastelands:block/junkpile1"},
+	{"model": "the_scorched_wastelands:block/junkpile2"},	
+	{"model": "the_scorched_wastelands:block/junkpile3"},
+	{"model": "the_scorched_wastelands:block/junkpile4"},
+	{"model": "the_scorched_wastelands:block/junkpile5"}
+	]
+  }
+}

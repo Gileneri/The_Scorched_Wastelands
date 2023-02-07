@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/dusty_glass_block",
+    "particle": "the_scorched_wastelands:blocks/dusty_glass_block"
+  }
+}

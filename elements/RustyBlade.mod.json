@@ -1,0 +1,33 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rusty_katana",
+    "customModelName": "Normal",
+    "name": "Rusty Blade",
+    "specialInfo": [
+      "An old rusted blade"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ScorchedWastelands"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 8.0,
+    "attackSpeed": 0.7999999999999999,
+    "enchantability": 10,
+    "damageVsEntity": 7.8,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.FLINT"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

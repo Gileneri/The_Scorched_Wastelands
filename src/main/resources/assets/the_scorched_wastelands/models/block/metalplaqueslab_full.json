@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "the_scorched_wastelands:blocks/metal_plaque",
+    "top": "the_scorched_wastelands:blocks/metal_plaque",
+    "side": "the_scorched_wastelands:blocks/metal_plaque"
+  }
+}

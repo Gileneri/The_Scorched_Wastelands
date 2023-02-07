@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_scorched_wastelands:block/rustymetalplaqueslab"
+    },
+    "type=top": {
+      "model": "the_scorched_wastelands:block/rustymetalplaqueslab_top"
+    },
+    "type=double": {
+      "model": "the_scorched_wastelands:block/rustymetalplaqueslab_full"
+    }
+  }
+}

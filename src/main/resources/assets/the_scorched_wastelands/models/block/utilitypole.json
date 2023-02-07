@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/ytilitypole2",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/utility",
+    "particle": "the_scorched_wastelands:blocks/utility",
+    "1": "the_scorched_wastelands:blocks/utility",
+    "missing": "the_scorched_wastelands:blocks/"
+  }
+}

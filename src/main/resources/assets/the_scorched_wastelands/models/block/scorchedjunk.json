@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "the_scorched_wastelands:blocks/rustbush3",
+    "particle": "the_scorched_wastelands:blocks/rustbush3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_scorched_wastelands:blocks/rust_darker_reverse",
+    "up": "the_scorched_wastelands:blocks/rust_darker_reverse",
+    "north": "the_scorched_wastelands:blocks/rusty_darker",
+    "east": "the_scorched_wastelands:blocks/reverse_right_rust",
+    "south": "the_scorched_wastelands:blocks/rusty_darker",
+    "west": "the_scorched_wastelands:blocks/reverse_right_rust",
+    "particle": "the_scorched_wastelands:blocks/rusty_darker"
+  }
+}

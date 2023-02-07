@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/wrecked_console",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/wrecked_console",
+    "particle": "the_scorched_wastelands:blocks/wrecked_console",
+    "0": "the_scorched_wastelands:blocks/wrecked_console"
+  }
+}

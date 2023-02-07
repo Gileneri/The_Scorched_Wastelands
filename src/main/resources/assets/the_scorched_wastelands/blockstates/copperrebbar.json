@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_scorched_wastelands:block/copperrebbar"
+    },
+    "facing=east": {
+      "model": "the_scorched_wastelands:block/copperrebbar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_scorched_wastelands:block/copperrebbar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_scorched_wastelands:block/copperrebbar",
+      "y": 270
+    }
+  }
+}

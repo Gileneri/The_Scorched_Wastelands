@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/signpole",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/singpole",
+    "particle": "the_scorched_wastelands:blocks/singpole",
+    "0": "the_scorched_wastelands:blocks/singpole"
+  }
+}

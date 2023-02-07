@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "the_scorched_wastelands:block/testdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "the_scorched_wastelands:block/testdimension_portal_ns"
+    }
+  }
+}

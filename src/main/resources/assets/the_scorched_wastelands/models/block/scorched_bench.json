@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/scorched_bench",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/scorched_bench",
+    "particle": "the_scorched_wastelands:blocks/scorched_bench",
+    "0": "the_scorched_wastelands:blocks/scorched_bench"
+  }
+}

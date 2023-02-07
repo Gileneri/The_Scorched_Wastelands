@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_scorched_wastelands:block/rustymetalslab"
+    },
+    "type=top": {
+      "model": "the_scorched_wastelands:block/rustymetalslab_top"
+    },
+    "type=double": {
+      "model": "the_scorched_wastelands:block/rustymetalslab_full"
+    }
+  }
+}

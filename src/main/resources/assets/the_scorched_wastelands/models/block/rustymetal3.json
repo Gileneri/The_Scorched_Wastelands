@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_scorched_wastelands:blocks/full_rust",
+    "up": "the_scorched_wastelands:blocks/full_light",
+    "north": "the_scorched_wastelands:blocks/light_top_rust",
+    "east": "the_scorched_wastelands:blocks/light_top_rust",
+    "south": "the_scorched_wastelands:blocks/light_top_rust",
+    "west": "the_scorched_wastelands:blocks/light_top_rust",
+    "particle": "the_scorched_wastelands:blocks/light_top_rust"
+  }
+}

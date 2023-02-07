@@ -1,0 +1,7 @@
+{
+  "parent": "the_scorched_wastelands:custom/heavy_dull_blade",
+  "textures": {
+    "0": "the_scorched_wastelands:blocks/heavy_dull_blade",
+    "particle": "the_scorched_wastelands:items/heavy_dull_blade"
+  }
+}

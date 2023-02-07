@@ -1,0 +1,161 @@
+{
+  "_fv": 33,
+  "_type": "block",
+  "definition": {
+    "texture": "debris",
+    "textureTop": "debris",
+    "textureLeft": "debris",
+    "textureFront": "debris",
+    "textureRight": "debris",
+    "textureBack": "debris",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Old debris",
+    "specialInfo": [],
+    "hardness": 1.5,
+    "resistance": 10.0,
+    "hasGravity": true,
+    "isWaterloggable": false,
+    "creativeTab": {
+      "value": "CUSTOM:ScorchedWastelands"
+    },
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": true,
+    "canRedstoneConnect": false,
+    "lightOpacity": 15,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "NETHER_BRICK"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Testdimension"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Testplains"
+      },
+      {
+        "value": "CUSTOM:Testplains2"
+      },
+      {
+        "value": "CUSTOM:Testplains3"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:RedDrySand"
+      },
+      {
+        "value": "CUSTOM:Dryrock"
+      },
+      {
+        "value": "CUSTOM:Junkpile"
+      },
+      {
+        "value": "CUSTOM:Drydirt"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 12,
+    "frequencyOnChunk": 15,
+    "minGenerateHeight": 55,
+    "maxGenerateHeight": 128
+  }
+}

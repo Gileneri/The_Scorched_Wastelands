@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_scorched_wastelands:blocks/junkpile2",
+    "up": "the_scorched_wastelands:blocks/junkpile2",
+    "north": "the_scorched_wastelands:blocks/junkpile2",
+    "east": "the_scorched_wastelands:blocks/junkpile2",
+    "south": "the_scorched_wastelands:blocks/junkpile2",
+    "west": "the_scorched_wastelands:blocks/junkpile2",
+    "particle": "the_scorched_wastelands:blocks/junkpile2"
+  }
+}

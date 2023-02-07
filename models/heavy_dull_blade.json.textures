@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "heavy_dull_blade"
+      },
+      "name": "default"
+    }
+  }
+}

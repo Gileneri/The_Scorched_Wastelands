@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "SingPole",
+		"particle": "SingPole"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 26, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 13], "texture": "#0"},
+				"east": {"uv": [1, 0, 2, 13], "texture": "#0"},
+				"south": {"uv": [2, 0, 3, 13], "texture": "#0"},
+				"west": {"uv": [3, 0, 4, 13], "texture": "#0"},
+				"up": {"uv": [5, 1, 4, 0], "texture": "#0"},
+				"down": {"uv": [5, 1, 4, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -7.25, 0]
+		},
+		"firstperson_righthand": {
+			"scale": [0.61914, 0.51172, 0.56836]
+		},
+		"firstperson_lefthand": {
+			"translation": [4.5, 3, 0],
+			"scale": [0.5957, 0.41211, 0.51367]
+		},
+		"ground": {
+			"translation": [0, 0.25, -0.25],
+			"scale": [0.36914, 0.3125, 0.47266]
+		},
+		"gui": {
+			"rotation": [0, 41.25, 0],
+			"translation": [0, -2.5, 0],
+			"scale": [0.66797, 0.38672, 1]
+		}
+	}
+}

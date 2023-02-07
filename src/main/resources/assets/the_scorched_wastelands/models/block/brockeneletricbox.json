@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/eletricbox",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/eletricbox",
+    "particle": "the_scorched_wastelands:blocks/eletricbox",
+    "0": "the_scorched_wastelands:blocks/eletricbox"
+  }
+}

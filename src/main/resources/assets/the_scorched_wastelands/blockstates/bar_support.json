@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "the_scorched_wastelands:block/bar_support",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "the_scorched_wastelands:block/bar_support"
+    },
+    "axis=z": {
+      "model": "the_scorched_wastelands:block/bar_support",
+      "x": 90
+    }
+  }
+}

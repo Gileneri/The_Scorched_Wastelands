@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Wrecked Objects",
+    "icon": {
+      "value": "CUSTOM:ScorchedDebris"
+    },
+    "showSearch": false
+  }
+}

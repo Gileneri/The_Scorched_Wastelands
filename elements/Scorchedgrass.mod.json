@@ -1,0 +1,126 @@
+{
+  "_fv": 33,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "rustbush3",
+    "textureBottom": "",
+    "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "suspiciousStewEffect": "WITHER",
+    "suspiciousStewDuration": 70,
+    "growapableSpawnType": "Desert",
+    "growapableMaxHeight": 1,
+    "doublePlantGenerationType": "Flower",
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Scorchedgrass",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:WreckedObjects"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "CHAIN"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": "CUSTOM:Junkpile"
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": true,
+    "colorOnMap": "SAND",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:Junkpile"
+      },
+      {
+        "value": "Blocks.SAND#1"
+      },
+      {
+        "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "CUSTOM:DrySand"
+      },
+      {
+        "value": "CUSTOM:RedDrySand"
+      },
+      {
+        "value": "CUSTOM:Dryrock"
+      },
+      {
+        "value": "CUSTOM:Drydirt"
+      }
+    ],
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Testdimension"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Farmontains"
+      },
+      {
+        "value": "CUSTOM:Testplains"
+      },
+      {
+        "value": "CUSTOM:Testplains2"
+      },
+      {
+        "value": "CUSTOM:Testplains3"
+      }
+    ],
+    "patchSize": 5,
+    "generateAtAnyHeight": false
+  }
+}

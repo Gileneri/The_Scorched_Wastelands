@@ -1,0 +1,75 @@
+{
+  "junkfootstep": {
+    "category": "neutral",
+    "subtitle": "subtitles.junkfootstep",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:footstep_bone",
+        "stream": false
+      }
+    ]
+  },
+  "bodyeletric": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:body-electric-loop",
+        "stream": false
+      }
+    ]
+  },
+  "bodyeletricmusic": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:body-electric-loop",
+        "stream": true
+      }
+    ]
+  },
+  "aridloop": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:arid_day",
+        "stream": false
+      }
+    ]
+  },
+  "voices": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:atropusambiance",
+        "stream": false
+      }
+    ]
+  },
+  "rarevoices": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:atropusambiance5",
+        "stream": false
+      }
+    ]
+  },
+  "nomads": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:nomads",
+        "stream": false
+      }
+    ]
+  },
+  "desolation": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:nomads",
+        "stream": false
+      }
+    ]
+  }
+}

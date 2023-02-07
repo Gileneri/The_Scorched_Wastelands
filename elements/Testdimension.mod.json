@@ -1,0 +1,58 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Testplains"
+      },
+      {
+        "value": "CUSTOM:Testplains2"
+      },
+      {
+        "value": "CUSTOM:Farmontains"
+      },
+      {
+        "value": "CUSTOM:Testplains3"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Dryrock"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -3393779,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "TestdimensionPlayerEntersDimension"
+    },
+    "portalFrame": {
+      "value": "Blocks.STAINED_HARDENED_CLAY#1"
+    },
+    "portalParticles": {
+      "value": "ASH"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "Teleporter Core",
+    "igniterTab": {
+      "value": "CUSTOM:ScorchedWastelands"
+    },
+    "texture": "teleporter_core",
+    "portalTexture": "suun",
+    "enablePortal": true
+  }
+}

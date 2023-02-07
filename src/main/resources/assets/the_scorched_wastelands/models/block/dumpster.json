@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/dumpster",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/dumpster1",
+    "particle": "the_scorched_wastelands:blocks/dumpster1",
+    "0": "the_scorched_wastelands:blocks/dumpster1"
+  }
+}

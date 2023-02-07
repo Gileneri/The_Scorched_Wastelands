@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_scorched_wastelands:block/dryrock"
+    },
+    "facing=east": {
+      "model": "the_scorched_wastelands:block/dryrock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_scorched_wastelands:block/dryrock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_scorched_wastelands:block/dryrock",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "the_scorched_wastelands:block/dryrock",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "the_scorched_wastelands:block/dryrock",
+      "x": 90
+    }
+  }
+}

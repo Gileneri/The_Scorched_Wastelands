@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "the_scorched_wastelands:blocks/rust_darker_reverse",
+    "top": "the_scorched_wastelands:blocks/rust_darker_reverse",
+    "side": "the_scorched_wastelands:blocks/vertical_rust"
+  }
+}

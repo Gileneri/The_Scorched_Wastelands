@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_scorched_wastelands:block/metalplaqueslab"
+    },
+    "type=top": {
+      "model": "the_scorched_wastelands:block/metalplaqueslab_top"
+    },
+    "type=double": {
+      "model": "the_scorched_wastelands:block/metalplaqueslab_full"
+    }
+  }
+}

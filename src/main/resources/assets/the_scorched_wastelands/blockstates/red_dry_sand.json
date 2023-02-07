@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "":  [
+	{"model": "the_scorched_wastelands:block/red_dry_sand"},
+	{"model": "the_scorched_wastelands:block/red_dry_sand2"},
+	{"model": "the_scorched_wastelands:block/red_dry_sand3"},	
+	{"model": "the_scorched_wastelands:block/red_dry_sand4"},
+	{"model": "the_scorched_wastelands:block/red_dry_sand5"},
+	{"model": "the_scorched_wastelands:block/red_dry_sand6"}
+	]
+  }
+}

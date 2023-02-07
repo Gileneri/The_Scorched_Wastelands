@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_scorched_wastelands:block/platedmetalslab"
+    },
+    "type=top": {
+      "model": "the_scorched_wastelands:block/platedmetalslab_top"
+    },
+    "type=double": {
+      "model": "the_scorched_wastelands:block/platedmetalslab_full"
+    }
+  }
+}

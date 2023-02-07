@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_scorched_wastelands:blocks/drydirt",
+    "up": "the_scorched_wastelands:blocks/drydirt",
+    "north": "the_scorched_wastelands:blocks/drydirt",
+    "east": "the_scorched_wastelands:blocks/drydirt",
+    "south": "the_scorched_wastelands:blocks/drydirt",
+    "west": "the_scorched_wastelands:blocks/drydirt",
+    "particle": "the_scorched_wastelands:blocks/drydirt"
+  }
+}

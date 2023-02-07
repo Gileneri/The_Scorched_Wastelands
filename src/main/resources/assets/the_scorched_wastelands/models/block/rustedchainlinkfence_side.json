@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "edge": "the_scorched_wastelands:blocks/rusted_chain_link",
+    "pane": "the_scorched_wastelands:blocks/rusted_chain_link"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_scorched_wastelands:block/rusted_table"
+    },
+    "facing=east": {
+      "model": "the_scorched_wastelands:block/rusted_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_scorched_wastelands:block/rusted_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_scorched_wastelands:block/rusted_table",
+      "y": 270
+    }
+  }
+}

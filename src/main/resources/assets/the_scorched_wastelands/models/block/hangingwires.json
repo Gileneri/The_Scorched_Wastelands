@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/hanging_wires",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/hanging_wires",
+    "particle": "the_scorched_wastelands:blocks/hanging_wires",
+    "0": "the_scorched_wastelands:blocks/hanging_wires"
+  }
+}

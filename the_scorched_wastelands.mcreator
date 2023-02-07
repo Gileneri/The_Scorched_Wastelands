@@ -1,0 +1,1169 @@
+{
+  "mod_elements": [
+    {
+      "name": "Junkpile",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "junkpile"
+    },
+    {
+      "name": "ScorchedWastelands",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_wastelands"
+    },
+    {
+      "name": "Scorchedgrass",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorchedjunk"
+    },
+    {
+      "name": "ScorchedDebris",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_debris"
+    },
+    {
+      "name": "ScorchedBush",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_bush"
+    },
+    {
+      "name": "Deadbeat",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadbeat"
+    },
+    {
+      "name": "MeleeDeadbeat",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melee_deadbeat"
+    },
+    {
+      "name": "RustyBlade",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusty_blade"
+    },
+    {
+      "name": "DrySand",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_sand"
+    },
+    {
+      "name": "Trash1",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_1"
+    },
+    {
+      "name": "RedDrySand",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_dry_sand"
+    },
+    {
+      "name": "Dryrock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryrock"
+    },
+    {
+      "name": "Stonelayerreplacement",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonelayerreplacement",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustywood",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustywood"
+    },
+    {
+      "name": "Poletop",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poletop"
+    },
+    {
+      "name": "Telephonepole",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telephonepole"
+    },
+    {
+      "name": "Utilitypole",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utilitypole"
+    },
+    {
+      "name": "Utilitypole2",
+      "type": "structure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utilitypole_2"
+    },
+    {
+      "name": "Drydirt",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drydirt"
+    },
+    {
+      "name": "Junkpile2",
+      "type": "structure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junkpile_2"
+    },
+    {
+      "name": "Junkpile3",
+      "type": "structure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junkpile_3"
+    },
+    {
+      "name": "Olddebris",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olddebris"
+    },
+    {
+      "name": "Pileofdebris",
+      "type": "structure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pileofdebris"
+    },
+    {
+      "name": "Rustedcrate",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedcrate"
+    },
+    {
+      "name": "Rustedcrate1gui",
+      "type": "gui",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedcrate_1gui"
+    },
+    {
+      "name": "Smallrustedcrate",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallrustedcrate"
+    },
+    {
+      "name": "Smallrustedcrategui",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallrustedcrategui"
+    },
+    {
+      "name": "Debrisslab",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debrisslab"
+    },
+    {
+      "name": "Cratestash",
+      "type": "structure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cratestash"
+    },
+    {
+      "name": "Rustymetal",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustymetal"
+    },
+    {
+      "name": "Platedmetal",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "platedmetal"
+    },
+    {
+      "name": "Copperrebbar",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperrebbar"
+    },
+    {
+      "name": "Platedmetalslab",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platedmetalslab"
+    },
+    {
+      "name": "Rustymetalslab",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustymetalslab"
+    },
+    {
+      "name": "Testplains",
+      "type": "biome",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testplains"
+    },
+    {
+      "name": "Testplains2",
+      "type": "biome",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testplains_2"
+    },
+    {
+      "name": "Testdimension",
+      "type": "dimension",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testdimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Testplains3",
+      "type": "biome",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testplains_3"
+    },
+    {
+      "name": "Farmontains",
+      "type": "biome",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmontains"
+    },
+    {
+      "name": "Ironframes",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironframes"
+    },
+    {
+      "name": "SignPole",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_pole"
+    },
+    {
+      "name": "SignTop",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_top"
+    },
+    {
+      "name": "Rustysidewalk",
+      "type": "structure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustysidewalk"
+    },
+    {
+      "name": "BarSupport",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bar_support"
+    },
+    {
+      "name": "Gasstation",
+      "type": "structure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gasstation"
+    },
+    {
+      "name": "ScorchedBench",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_bench"
+    },
+    {
+      "name": "Benches",
+      "type": "structure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benches"
+    },
+    {
+      "name": "Dumpster",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dumpster"
+    },
+    {
+      "name": "Erodedstore",
+      "type": "structure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erodedstore"
+    },
+    {
+      "name": "Dumpsterwalkway",
+      "type": "structure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dumpsterwalkway"
+    },
+    {
+      "name": "Brockeneletricbox",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brockeneletricbox"
+    },
+    {
+      "name": "Rustystreet",
+      "type": "structure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustystreet"
+    },
+    {
+      "name": "SuppliesShelf",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supplies_shelf"
+    },
+    {
+      "name": "Wreckedvent",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wreckedvent"
+    },
+    {
+      "name": "Wreckedvendingmachine",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wreckedvendingmachine"
+    },
+    {
+      "name": "WreckedTV",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrecked_tv"
+    },
+    {
+      "name": "HeavyDullBlade",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_dull_blade"
+    },
+    {
+      "name": "RustedTable",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_table"
+    },
+    {
+      "name": "Hangingwires",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hangingwires"
+    },
+    {
+      "name": "Littletable",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "littletable"
+    },
+    {
+      "name": "Smashedscreen",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smashedscreen"
+    },
+    {
+      "name": "RustyLocker",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusty_locker"
+    },
+    {
+      "name": "RustedLocker",
+      "type": "gui",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_locker"
+    },
+    {
+      "name": "RustedBrokenFan",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_broken_fan"
+    },
+    {
+      "name": "Wreckedcrate",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wreckedcrate"
+    },
+    {
+      "name": "WreckedObjects",
+      "type": "tab",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrecked_objects"
+    },
+    {
+      "name": "Brokenterminal",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenterminal"
+    },
+    {
+      "name": "Wreckedconsole",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wreckedconsole"
+    },
+    {
+      "name": "Wreckedcontrolpanel",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wreckedcontrolpanel"
+    },
+    {
+      "name": "TestdimensionPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testdimension_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rustedchair",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedchair"
+    },
+    {
+      "name": "Rustedboiler",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedboiler"
+    },
+    {
+      "name": "Brokentable",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokentable"
+    },
+    {
+      "name": "Decayedshelf",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayedshelf"
+    },
+    {
+      "name": "Brokenregister",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenregister"
+    },
+    {
+      "name": "Rustingctm",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustingctm"
+    },
+    {
+      "name": "Scorchedmetal",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "scorchedmetal"
+    },
+    {
+      "name": "Grayplatedmetal",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "grayplatedmetal"
+    },
+    {
+      "name": "Charredmetalplating",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charredmetalplating"
+    },
+    {
+      "name": "Dotedpanel",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dotedpanel"
+    },
+    {
+      "name": "Rustygrate",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustygrate"
+    },
+    {
+      "name": "Grate",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "grate"
+    },
+    {
+      "name": "Dustyglass",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyglass"
+    },
+    {
+      "name": "Dustyglassblock",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyglassblock"
+    },
+    {
+      "name": "Dustygrate",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dustygrate"
+    },
+    {
+      "name": "Scorchedplating",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "scorchedplating"
+    },
+    {
+      "name": "Rustyscafolding",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustyscafolding"
+    },
+    {
+      "name": "Dustycircuit",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dustycircuit"
+    },
+    {
+      "name": "Rustyboltedplates",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustyboltedplates"
+    },
+    {
+      "name": "Rustedbars",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustedbars"
+    },
+    {
+      "name": "Rustedplates",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustedplates"
+    },
+    {
+      "name": "Metalsheets",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "metalsheets"
+    },
+    {
+      "name": "Scorchedhazardtape",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "scorchedhazardtape"
+    },
+    {
+      "name": "Scorchedtapumme",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "scorchedtapumme"
+    },
+    {
+      "name": "Makeshiftmetalsheets",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "makeshiftmetalsheets"
+    },
+    {
+      "name": "Rustedhexagonalsheets",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustedhexagonalsheets"
+    },
+    {
+      "name": "Metaliccolumn",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "metaliccolumn"
+    },
+    {
+      "name": "Scorchedcargoplating",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "scorchedcargoplating"
+    },
+    {
+      "name": "Wreckeddrain",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wreckeddrain"
+    },
+    {
+      "name": "Slopedrustpanel",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slopedrustpanel"
+    },
+    {
+      "name": "Rustytech",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustytech"
+    },
+    {
+      "name": "Metalplaques",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalplaques"
+    },
+    {
+      "name": "Rustymetalplaques",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustymetalplaques"
+    },
+    {
+      "name": "Metalplaqueslab",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalplaqueslab"
+    },
+    {
+      "name": "Rustymetalplaqueslab",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustymetalplaqueslab"
+    },
+    {
+      "name": "Metalplaquestairs",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalplaquestairs"
+    },
+    {
+      "name": "Rustymetalplaquestairs",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustymetalplaquestairs"
+    },
+    {
+      "name": "Rustywall",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustywall"
+    },
+    {
+      "name": "Oldglasspane",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldglasspane"
+    },
+    {
+      "name": "Oldglass",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldglass"
+    },
+    {
+      "name": "Darkglass",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkglass"
+    },
+    {
+      "name": "Darkglasspane",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkglasspane"
+    },
+    {
+      "name": "Charredmetalplates",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charredmetalplates"
+    },
+    {
+      "name": "Chainlinkfence",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "chainlinkfence"
+    },
+    {
+      "name": "Rustedchainlinkfence",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustedchainlinkfence"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "junkfootstep",
+      "files": [
+        "footstep_bone"
+      ],
+      "category": "neutral",
+      "subtitle": "junkfootstep"
+    },
+    {
+      "name": "bodyeletric",
+      "files": [
+        "body-electric-loop"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "bodyeletricmusic",
+      "files": [
+        "body-electric-loop"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "aridloop",
+      "files": [
+        "arid_day"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "voices",
+      "files": [
+        "atropusambiance"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rarevoices",
+      "files": [
+        "atropusambiance5"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "nomads",
+      "files": [
+        "nomads"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "desolation",
+      "files": [
+        "nomads"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.the_scorched_wastelands.slopedrustpanel": "Sloped rust panel",
+      "block.the_scorched_wastelands.scorchedcargoplating": "Scorched cargo plating",
+      "block.the_scorched_wastelands.oldglass": "Old glass",
+      "block.the_scorched_wastelands.wreckedcrate": "Wrecked crate",
+      "block.the_scorched_wastelands.wreckedvent": "Wrecked Vent",
+      "block.the_scorched_wastelands.sign_pole": "Sign Pole",
+      "block.the_scorched_wastelands.bar_support": "Bar Support",
+      "block.the_scorched_wastelands.metalsheets": "Metal sheets",
+      "entity.the_scorched_wastelands.deadbeat": "Deadbeat",
+      "block.the_scorched_wastelands.dustygrate": "Dusty grate",
+      "subtitles.aridloop": "",
+      "subtitles.desolation": "",
+      "block.the_scorched_wastelands.rustedcrate": "Big rusted crate",
+      "block.the_scorched_wastelands.brockeneletricbox": "Brocken eletric box",
+      "block.the_scorched_wastelands.rustedboiler": "Rusted boiler",
+      "block.the_scorched_wastelands.rusty_locker": "Rusty Locker",
+      "subtitles.rarevoices": "",
+      "block.the_scorched_wastelands.grayplatedmetal": "Gray plated beam",
+      "block.the_scorched_wastelands.rustymetalplaqueslab": "Rusty metal plaque slab",
+      "block.the_scorched_wastelands.dustywood": "Dustywood",
+      "subtitles.junkfootstep": "junkfootstep",
+      "block.the_scorched_wastelands.scorched_bush": "Scorched Bush",
+      "block.the_scorched_wastelands.wreckedconsole": "Wrecked console",
+      "item.the_scorched_wastelands.melee_deadbeat_spawn_egg": "Deadbeat Swordsman Spawn Egg",
+      "block.the_scorched_wastelands.dotedpanel": "Doted panel",
+      "subtitles.nomads": "",
+      "block.the_scorched_wastelands.olddebris": "Old debris",
+      "itemGroup.tabscorched_wastelands": "Scorched Wastelands",
+      "block.the_scorched_wastelands.metalplaquestairs": "Metal plaque stairs",
+      "block.the_scorched_wastelands.brokentable": "Broken table",
+      "block.the_scorched_wastelands.rustyboltedplates": "Rusty bolted plates",
+      "item.the_scorched_wastelands.deadbeat_spawn_egg": "Deadbeat Spawn Egg",
+      "block.the_scorched_wastelands.scorchedjunk": "Scorchedgrass",
+      "block.the_scorched_wastelands.dumpster": "Dumpster",
+      "block.the_scorched_wastelands.decayedshelf": "Decayedshelf",
+      "block.the_scorched_wastelands.utilitypole": "Utility pole",
+      "block.the_scorched_wastelands.rustedchainlinkfence": "Rusted chain link fence",
+      "block.the_scorched_wastelands.smashedscreen": "Smashed screen",
+      "block.the_scorched_wastelands.scorched_bench": "Scorched Bench",
+      "block.the_scorched_wastelands.sign_top": "Sign Top",
+      "block.the_scorched_wastelands.platedmetalslab": "Platedmetalslab",
+      "block.the_scorched_wastelands.rusted_broken_fan": "Rusted broken fan",
+      "block.the_scorched_wastelands.supplies_shelf": "Supplies Shelf",
+      "block.the_scorched_wastelands.rustedchair": "Rusted chair",
+      "block.the_scorched_wastelands.grate": "Grate",
+      "block.the_scorched_wastelands.platedmetal": "Plated metal",
+      "subtitles.bodyeletricmusic": "",
+      "block.the_scorched_wastelands.red_dry_sand": "Dry Sand",
+      "itemGroup.tabwrecked_objects": "Wrecked Objects",
+      "block.the_scorched_wastelands.rustingctm": "Dark scorched metal",
+      "item.the_scorched_wastelands.heavy_dull_blade": "Heavy Dull Blade",
+      "block.the_scorched_wastelands.littletable": "Littletable",
+      "block.the_scorched_wastelands.scorchedplating": "Scorchedplating",
+      "block.the_scorched_wastelands.charredmetalplates": "Charred metal plates",
+      "block.the_scorched_wastelands.oldglasspane": "Old glass pane",
+      "block.the_scorched_wastelands.brokenregister": "Broken register",
+      "entity.the_scorched_wastelands.melee_deadbeat": "Deadbeat Swordsman",
+      "block.the_scorched_wastelands.scorchedmetal": "Scorchedmetal",
+      "block.the_scorched_wastelands.scorchedhazardtape": "Scorched hazard tape",
+      "block.the_scorched_wastelands.dryrock": "Dryrock",
+      "block.the_scorched_wastelands.rustymetalplaques": "Rusty metal plaques",
+      "block.the_scorched_wastelands.charredmetalplating": "Charred metal plating",
+      "block.the_scorched_wastelands.rustytech": "Rusty tech",
+      "block.the_scorched_wastelands.darkglass": "Dark glass",
+      "block.the_scorched_wastelands.rustedplates": "Rusted plates",
+      "block.the_scorched_wastelands.poletop": "Pole top",
+      "block.the_scorched_wastelands.rustymetal": "Rusty metal",
+      "block.the_scorched_wastelands.copperrebbar": "Copperrebbar",
+      "block.the_scorched_wastelands.rustygrate": "Rusty grate",
+      "item.the_scorched_wastelands.testdimension": "Teleporter Core",
+      "block.the_scorched_wastelands.ironframes": "Iron frames",
+      "block.the_scorched_wastelands.wreckedcontrolpanel": "Wrecked control panel",
+      "block.the_scorched_wastelands.dustyglassblock": "Dusty glass block",
+      "block.the_scorched_wastelands.smallrustedcrate": "Small rusted crate",
+      "block.the_scorched_wastelands.hangingwires": "Hanging wires",
+      "block.the_scorched_wastelands.brokenterminal": "Broken terminal",
+      "block.the_scorched_wastelands.dustyglass": "Dusty glass",
+      "block.the_scorched_wastelands.rustymetalslab": "Rusty metal slab",
+      "block.the_scorched_wastelands.rusted_table": "Rusted Table",
+      "block.the_scorched_wastelands.wreckedvendingmachine": "Wrecked vending machine",
+      "biome.the_scorched_wastelands.testplains": "scorcheddunes1",
+      "block.the_scorched_wastelands.drydirt": "Dry dirt",
+      "block.the_scorched_wastelands.metaliccolumn": "Metalic column",
+      "block.the_scorched_wastelands.dry_sand": "Dry Sand",
+      "subtitles.voices": "",
+      "block.the_scorched_wastelands.darkglasspane": "Dark glass pane",
+      "block.the_scorched_wastelands.chainlinkfence": "Chain link fence",
+      "block.the_scorched_wastelands.wreckeddrain": "Wrecked drain",
+      "block.the_scorched_wastelands.dustycircuit": "Dusty circuit",
+      "subtitles.bodyeletric": "",
+      "block.the_scorched_wastelands.rustyscafolding": "Rusty scaffolding",
+      "item.the_scorched_wastelands.rusty_blade": "Rusty Blade",
+      "block.the_scorched_wastelands.scorchedtapumme": "Scorched tapumme",
+      "block.the_scorched_wastelands.metalplaqueslab": "Metal plaque slab",
+      "block.the_scorched_wastelands.makeshiftmetalsheets": "Makeshift metal sheets",
+      "block.the_scorched_wastelands.rustywall": "Rusty metal wall",
+      "block.the_scorched_wastelands.rustedhexagonalsheets": "Rusted hexagonal sheets",
+      "block.the_scorched_wastelands.wrecked_tv": "Wrecked TV",
+      "biome.the_scorched_wastelands.testplains_3": "scorcheddunes3",
+      "biome.the_scorched_wastelands.testplains_2": "scorcheddunes2",
+      "block.the_scorched_wastelands.rustedbars": "Rusted bars",
+      "block.the_scorched_wastelands.metalplaques": "Metal plaques",
+      "biome.the_scorched_wastelands.farmontains": "Farmontains",
+      "block.the_scorched_wastelands.debrisslab": "Debris slab",
+      "block.the_scorched_wastelands.junkpile": "Junk pile",
+      "block.the_scorched_wastelands.scorched_debris": "Scorched Debris",
+      "block.the_scorched_wastelands.rustymetalplaquestairs": "Rusty metal plaque stairs"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_scorched_wastelands",
+    "modName": "The Scorched Wastelands",
+    "version": "1.0.0",
+    "author": "Usuario, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.thescorchedwastelands",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
