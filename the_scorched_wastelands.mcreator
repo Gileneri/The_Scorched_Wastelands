@@ -963,6 +963,46 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "rustedchainlinkfence"
+    },
+    {
+      "name": "Rusteddrain",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusteddrain"
+    },
+    {
+      "name": "Erodedmetalpanels",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erodedmetalpanels"
+    },
+    {
+      "name": "Junktech",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junktech"
+    },
+    {
+      "name": "Brokenfridge",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenfridge"
+    },
+    {
+      "name": "Dustywirebox",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustywirebox"
     }
   ],
   "variable_elements": [],
@@ -1034,6 +1074,7 @@
   ],
   "language_map": {
     "en_us": {
+      "block.the_scorched_wastelands.erodedmetalpanels": "Eroded metal panels",
       "block.the_scorched_wastelands.slopedrustpanel": "Sloped rust panel",
       "block.the_scorched_wastelands.scorchedcargoplating": "Scorched cargo plating",
       "block.the_scorched_wastelands.oldglass": "Old glass",
@@ -1043,6 +1084,7 @@
       "block.the_scorched_wastelands.bar_support": "Bar Support",
       "block.the_scorched_wastelands.metalsheets": "Metal sheets",
       "entity.the_scorched_wastelands.deadbeat": "Deadbeat",
+      "block.the_scorched_wastelands.dustywirebox": "Dusty wire box",
       "block.the_scorched_wastelands.dustygrate": "Dusty grate",
       "subtitles.aridloop": "",
       "subtitles.desolation": "",
@@ -1066,13 +1108,14 @@
       "block.the_scorched_wastelands.brokentable": "Broken table",
       "block.the_scorched_wastelands.rustyboltedplates": "Rusty bolted plates",
       "item.the_scorched_wastelands.deadbeat_spawn_egg": "Deadbeat Spawn Egg",
-      "block.the_scorched_wastelands.scorchedjunk": "Scorchedgrass",
       "block.the_scorched_wastelands.dumpster": "Dumpster",
+      "block.the_scorched_wastelands.scorchedjunk": "Scorchedgrass",
       "block.the_scorched_wastelands.decayedshelf": "Decayedshelf",
       "block.the_scorched_wastelands.utilitypole": "Utility pole",
       "block.the_scorched_wastelands.rustedchainlinkfence": "Rusted chain link fence",
       "block.the_scorched_wastelands.smashedscreen": "Smashed screen",
       "block.the_scorched_wastelands.scorched_bench": "Scorched Bench",
+      "block.the_scorched_wastelands.junktech": "Junk tech",
       "block.the_scorched_wastelands.sign_top": "Sign Top",
       "block.the_scorched_wastelands.platedmetalslab": "Platedmetalslab",
       "block.the_scorched_wastelands.rusted_broken_fan": "Rusted broken fan",
@@ -1120,6 +1163,7 @@
       "block.the_scorched_wastelands.dry_sand": "Dry Sand",
       "subtitles.voices": "",
       "block.the_scorched_wastelands.darkglasspane": "Dark glass pane",
+      "block.the_scorched_wastelands.brokenfridge": "Broken fridge",
       "block.the_scorched_wastelands.chainlinkfence": "Chain link fence",
       "block.the_scorched_wastelands.wreckeddrain": "Wrecked drain",
       "block.the_scorched_wastelands.dustycircuit": "Dusty circuit",
@@ -1128,6 +1172,7 @@
       "item.the_scorched_wastelands.rusty_blade": "Rusty Blade",
       "block.the_scorched_wastelands.scorchedtapumme": "Scorched tapumme",
       "block.the_scorched_wastelands.metalplaqueslab": "Metal plaque slab",
+      "block.the_scorched_wastelands.rusteddrain": "Rusted drain",
       "block.the_scorched_wastelands.makeshiftmetalsheets": "Makeshift metal sheets",
       "block.the_scorched_wastelands.rustywall": "Rusty metal wall",
       "block.the_scorched_wastelands.rustedhexagonalsheets": "Rusted hexagonal sheets",

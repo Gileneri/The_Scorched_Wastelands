@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dusty_wire_box"
+      },
+      "name": "default"
+    }
+  }
+}

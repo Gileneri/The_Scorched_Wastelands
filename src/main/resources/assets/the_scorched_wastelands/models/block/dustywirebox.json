@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/dusty_wire_box",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/dusty_wire_box",
+    "particle": "the_scorched_wastelands:blocks/dusty_wire_box",
+    "0": "the_scorched_wastelands:blocks/dusty_wire_box"
+  }
+}
