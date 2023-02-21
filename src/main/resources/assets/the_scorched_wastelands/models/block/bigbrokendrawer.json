@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/big_broken_drawer",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/big_broken_drawer",
+    "particle": "the_scorched_wastelands:blocks/big_broken_drawer",
+    "0": "the_scorched_wastelands:blocks/big_broken_drawer"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_scorched_wastelands:block/brokencounter"
+    },
+    "facing=east": {
+      "model": "the_scorched_wastelands:block/brokencounter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_scorched_wastelands:block/brokencounter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_scorched_wastelands:block/brokencounter",
+      "y": 270
+    }
+  }
+}

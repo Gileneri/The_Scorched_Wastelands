@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/broken_television_set",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/broken_televison_set",
+    "particle": "the_scorched_wastelands:blocks/broken_televison_set",
+    "0": "the_scorched_wastelands:blocks/broken_televison_set"
+  }
+}

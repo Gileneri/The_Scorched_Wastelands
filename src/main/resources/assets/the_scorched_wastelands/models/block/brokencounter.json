@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/broken_counter",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/broken_counter",
+    "particle": "the_scorched_wastelands:blocks/broken_counter",
+    "1": "the_scorched_wastelands:blocks/broken_counter"
+  }
+}

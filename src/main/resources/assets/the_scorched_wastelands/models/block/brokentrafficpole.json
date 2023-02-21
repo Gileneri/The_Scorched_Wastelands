@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/broken_traffic_pole",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/broken_traffic_pole",
+    "particle": "the_scorched_wastelands:blocks/broken_traffic_pole",
+    "0": "the_scorched_wastelands:blocks/broken_traffic_pole"
+  }
+}
