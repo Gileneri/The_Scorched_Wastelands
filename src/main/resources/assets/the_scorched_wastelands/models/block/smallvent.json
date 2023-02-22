@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/small_vent",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/small_vent",
+    "particle": "the_scorched_wastelands:blocks/small_vent",
+    "0": "the_scorched_wastelands:blocks/small_vent"
+  }
+}

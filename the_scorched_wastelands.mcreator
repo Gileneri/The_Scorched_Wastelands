@@ -1051,6 +1051,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "brokentrafficlights"
+    },
+    {
+      "name": "Smallvent",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallvent"
     }
   ],
   "variable_elements": [],
@@ -1163,6 +1171,7 @@
       "block.the_scorched_wastelands.utilitypole": "Utility pole",
       "block.the_scorched_wastelands.rustedchainlinkfence": "Rusted chain link fence",
       "block.the_scorched_wastelands.smashedscreen": "Smashed screen",
+      "block.the_scorched_wastelands.smallvent": "Small vent",
       "block.the_scorched_wastelands.scorched_bench": "Scorched Bench",
       "block.the_scorched_wastelands.junktech": "Junk tech",
       "block.the_scorched_wastelands.sign_top": "Sign Top",
