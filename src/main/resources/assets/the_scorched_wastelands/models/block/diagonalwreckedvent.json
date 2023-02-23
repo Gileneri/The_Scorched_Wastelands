@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/diagonal_wrecked_vent",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/diagonal_wrecked_vent",
+    "particle": "the_scorched_wastelands:blocks/diagonal_wrecked_vent",
+    "0": "the_scorched_wastelands:blocks/diagonal_wrecked_vent"
+  }
+}
