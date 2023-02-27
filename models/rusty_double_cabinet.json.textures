@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rusty_double_cabinet"
+      },
+      "name": "default"
+    }
+  }
+}

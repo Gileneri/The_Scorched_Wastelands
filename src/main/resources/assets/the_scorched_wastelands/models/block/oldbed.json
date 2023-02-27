@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/old_bed",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/old_bed",
+    "particle": "the_scorched_wastelands:blocks/old_bed",
+    "0": "the_scorched_wastelands:blocks/old_bed"
+  }
+}

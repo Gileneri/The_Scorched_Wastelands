@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "toxic_wate_barrel"
+      },
+      "name": "default"
+    }
+  }
+}

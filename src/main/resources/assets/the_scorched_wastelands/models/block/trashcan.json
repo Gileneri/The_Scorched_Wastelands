@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/thash_can",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/trash_can",
+    "particle": "the_scorched_wastelands:blocks/trash_can",
+    "0": "the_scorched_wastelands:blocks/trash_can"
+  }
+}

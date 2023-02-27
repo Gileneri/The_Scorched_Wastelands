@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_scorched_wastelands:block/trashcan"
+    },
+    "facing=east": {
+      "model": "the_scorched_wastelands:block/trashcan",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_scorched_wastelands:block/trashcan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_scorched_wastelands:block/trashcan",
+      "y": 270
+    }
+  }
+}
