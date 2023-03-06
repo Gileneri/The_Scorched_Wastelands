@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "rusted_oil_barrel"
+      },
+      "name": "default"
+    }
+  }
+}

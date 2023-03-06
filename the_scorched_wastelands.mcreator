@@ -1115,6 +1115,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rustydoublecabinet"
+    },
+    {
+      "name": "Rustedoilbarrel",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedoilbarrel"
+    },
+    {
+      "name": "Brokenradiocabinet",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenradiocabinet"
     }
   ],
   "variable_elements": [],
@@ -1193,10 +1209,10 @@
       "block.the_scorched_wastelands.wreckedcrate": "Wrecked crate",
       "block.the_scorched_wastelands.wreckedvent": "Wrecked Vent",
       "block.the_scorched_wastelands.sign_pole": "Sign Pole",
-      "block.the_scorched_wastelands.bar_support": "Bar Support",
       "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
-      "block.the_scorched_wastelands.metalsheets": "Metal sheets",
+      "block.the_scorched_wastelands.bar_support": "Bar Support",
       "entity.the_scorched_wastelands.deadbeat": "Deadbeat",
+      "block.the_scorched_wastelands.metalsheets": "Metal sheets",
       "block.the_scorched_wastelands.dustywirebox": "Dusty wire box",
       "block.the_scorched_wastelands.dustygrate": "Dusty grate",
       "subtitles.aridloop": "",
@@ -1249,8 +1265,10 @@
       "block.the_scorched_wastelands.brokentrafficlights": "Broken traffic lights",
       "block.the_scorched_wastelands.scorchedplating": "Scorchedplating",
       "block.the_scorched_wastelands.charredmetalplates": "Charred metal plates",
+      "block.the_scorched_wastelands.rustedoilbarrel": "Rusted oil barrel",
       "block.the_scorched_wastelands.oldglasspane": "Old glass pane",
       "block.the_scorched_wastelands.horizontalwreckedvent": "Horizontal wrecked vent",
+      "block.the_scorched_wastelands.brokenradiocabinet": "Broken radio cabinet",
       "block.the_scorched_wastelands.brokentelevisionset": "Broken television set",
       "block.the_scorched_wastelands.brokenregister": "Broken register",
       "block.the_scorched_wastelands.diagonalwreckedvent": "Diagonal wrecked vent",
