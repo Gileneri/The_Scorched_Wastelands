@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_scorched_wastelands:block/rustedwatertank"
+    },
+    "facing=east": {
+      "model": "the_scorched_wastelands:block/rustedwatertank",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_scorched_wastelands:block/rustedwatertank",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_scorched_wastelands:block/rustedwatertank",
+      "y": 270
+    }
+  }
+}

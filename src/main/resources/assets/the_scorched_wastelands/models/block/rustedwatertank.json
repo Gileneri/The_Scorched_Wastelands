@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/rusted_water_tank",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/rusted_water_tank",
+    "particle": "the_scorched_wastelands:blocks/rusted_water_tank",
+    "0": "the_scorched_wastelands:blocks/rusted_water_tank"
+  }
+}
