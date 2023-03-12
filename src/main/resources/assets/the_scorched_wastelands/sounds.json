@@ -71,5 +71,41 @@
         "stream": false
       }
     ]
+  },
+  "ultramarine": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:ultramarine-loop",
+        "stream": false
+      }
+    ]
+  },
+  "desert_exploration": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:desert-exploration2",
+        "stream": false
+      }
+    ]
+  },
+  "inviolate": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:inviolate-loop",
+        "stream": false
+      }
+    ]
+  },
+  "lava_exploration": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:lava-exploration1",
+        "stream": false
+      }
+    ]
   }
 }

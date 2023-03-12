@@ -9,10 +9,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.ITeleporter;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -54,24 +52,19 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock;
 
-import net.mcreator.thescorchedwastelands.procedures.TestdimensionPlayerEntersDimensionProcedure;
 import net.mcreator.thescorchedwastelands.item.TestdimensionItem;
 import net.mcreator.thescorchedwastelands.block.DryrockBlock;
 import net.mcreator.thescorchedwastelands.TheScorchedWastelandsModElements;
 
 import javax.annotation.Nullable;
 
-import java.util.stream.Stream;
 import java.util.function.Predicate;
 import java.util.function.Function;
 import java.util.Set;
 import java.util.Random;
 import java.util.Optional;
-import java.util.Map;
 import java.util.HashSet;
-import java.util.HashMap;
 import java.util.Comparator;
-import java.util.AbstractMap;
 
 import it.unimi.dsi.fastutil.objects.Object2ObjectMap;
 
@@ -85,7 +78,6 @@ public class TestdimensionDimension extends TheScorchedWastelandsModElements.Mod
 
 	public TestdimensionDimension(TheScorchedWastelandsModElements instance) {
 		super(instance, 45);
-		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 
@@ -629,22 +621,6 @@ public class TestdimensionDimension extends TheScorchedWastelandsModElements.Mod
 			} else {
 				return optional;
 			}
-		}
-	}
-
-	@SubscribeEvent
-	public void onPlayerChangedDimensionEvent(PlayerEvent.PlayerChangedDimensionEvent event) {
-		Entity entity = event.getPlayer();
-		World world = entity.world;
-		double x = entity.getPosX();
-		double y = entity.getPosY();
-		double z = entity.getPosZ();
-		if (event.getTo() == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("the_scorched_wastelands:testdimension"))) {
-
-			TestdimensionPlayerEntersDimensionProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

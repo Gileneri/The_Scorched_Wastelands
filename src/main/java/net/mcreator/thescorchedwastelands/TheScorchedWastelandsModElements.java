@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -62,6 +63,14 @@ public class TheScorchedWastelandsModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("the_scorched_wastelands", "nomads")));
 		sounds.put(new ResourceLocation("the_scorched_wastelands", "desolation"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("the_scorched_wastelands", "desolation")));
+		sounds.put(new ResourceLocation("the_scorched_wastelands", "ultramarine"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("the_scorched_wastelands", "ultramarine")));
+		sounds.put(new ResourceLocation("the_scorched_wastelands", "desert_exploration"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("the_scorched_wastelands", "desert_exploration")));
+		sounds.put(new ResourceLocation("the_scorched_wastelands", "inviolate"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("the_scorched_wastelands", "inviolate")));
+		sounds.put(new ResourceLocation("the_scorched_wastelands", "lava_exploration"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("the_scorched_wastelands", "lava_exploration")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("the_scorched_wastelands").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
@@ -77,6 +86,7 @@ public class TheScorchedWastelandsModElements {
 		}
 		Collections.sort(elements);
 		elements.forEach(TheScorchedWastelandsModElements.ModElement::initElements);
+		MinecraftForge.EVENT_BUS.register(new TheScorchedWastelandsModVariables(this));
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {

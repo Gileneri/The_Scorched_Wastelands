@@ -577,38 +577,6 @@
       "registry_name": "wreckedcontrolpanel"
     },
     {
-      "name": "TestdimensionPlayerEntersDimension",
-      "type": "procedure",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testdimension_player_enters_dimension",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Rustedchair",
       "type": "block",
       "sortid": 80,
@@ -1153,22 +1121,6 @@
       "registry_name": "waitpotion"
     },
     {
-      "name": "OnPlayerJoinsTheWorld",
-      "type": "procedure",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "on_player_joins_the_world",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Femboymilkbucket",
       "type": "item",
       "sortid": 152,
@@ -1177,39 +1129,60 @@
       "registry_name": "femboymilkbucket"
     },
     {
-      "name": "OnDrinkFemboyMilk",
+      "name": "Newmusicmethod",
       "type": "procedure",
       "sortid": 153,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "on_drink_femboy_milk",
+      "registry_name": "newmusicmethod",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
     },
     {
-      "name": "Femboymilktransformation",
+      "name": "Playerjoinsdimencion",
       "type": "procedure",
       "sortid": 154,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "femboymilktransformation",
+      "registry_name": "playerjoinsdimencion",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "jukebox",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "jukeboxshovel",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "junkfootstep",
@@ -1274,21 +1247,54 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "ultramarine",
+      "files": [
+        "ultramarine-loop"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "desert_exploration",
+      "files": [
+        "desert-exploration2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "inviolate",
+      "files": [
+        "inviolate-loop"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "lava_exploration",
+      "files": [
+        "lava-exploration1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "block.the_scorched_wastelands.erodedmetalpanels": "Eroded metal panels",
+      "subtitles.lava_exploration": "",
       "block.the_scorched_wastelands.slopedrustpanel": "Sloped rust panel",
       "block.the_scorched_wastelands.scorchedcargoplating": "Scorched cargo plating",
       "block.the_scorched_wastelands.oldglass": "Old glass",
       "block.the_scorched_wastelands.wreckedcrate": "Wrecked crate",
       "block.the_scorched_wastelands.wreckedvent": "Wrecked Vent",
       "block.the_scorched_wastelands.sign_pole": "Sign Pole",
-      "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
       "block.the_scorched_wastelands.bar_support": "Bar Support",
-      "entity.the_scorched_wastelands.deadbeat": "Deadbeat",
+      "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
       "block.the_scorched_wastelands.metalsheets": "Metal sheets",
+      "entity.the_scorched_wastelands.deadbeat": "Deadbeat",
       "block.the_scorched_wastelands.dustywirebox": "Dusty wire box",
       "block.the_scorched_wastelands.dustygrate": "Dusty grate",
       "subtitles.aridloop": "",
@@ -1334,6 +1340,7 @@
       "block.the_scorched_wastelands.rustedchair": "Rusted chair",
       "block.the_scorched_wastelands.grate": "Grate",
       "block.the_scorched_wastelands.platedmetal": "Plated metal",
+      "subtitles.ultramarine": "",
       "subtitles.bodyeletricmusic": "",
       "block.the_scorched_wastelands.red_dry_sand": "Dry Sand",
       "itemGroup.tabwrecked_objects": "Wrecked Objects",
@@ -1354,6 +1361,7 @@
       "entity.the_scorched_wastelands.melee_deadbeat": "Deadbeat Swordsman",
       "block.the_scorched_wastelands.scorchedmetal": "Scorchedmetal",
       "block.the_scorched_wastelands.scorchedhazardtape": "Scorched hazard tape",
+      "subtitles.desert_exploration": "",
       "block.the_scorched_wastelands.dryrock": "Dryrock",
       "block.the_scorched_wastelands.rustymetalplaques": "Rusty metal plaques",
       "block.the_scorched_wastelands.trashcan": "Trash can",
@@ -1368,6 +1376,7 @@
       "item.the_scorched_wastelands.testdimension": "Teleporter Core",
       "block.the_scorched_wastelands.ironframes": "Iron frames",
       "block.the_scorched_wastelands.wreckedcontrolpanel": "Wrecked control panel",
+      "subtitles.inviolate": "",
       "block.the_scorched_wastelands.dustyglassblock": "Dusty glass block",
       "block.the_scorched_wastelands.smallrustedcrate": "Small rusted crate",
       "block.the_scorched_wastelands.hangingwires": "Hanging wires",

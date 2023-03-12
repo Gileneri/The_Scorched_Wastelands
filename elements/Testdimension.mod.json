@@ -34,9 +34,6 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
-    "onPlayerEntersDimension": {
-      "name": "TestdimensionPlayerEntersDimension"
-    },
     "portalFrame": {
       "value": "Blocks.STAINED_HARDENED_CLAY#1"
     },
