@@ -86,7 +86,7 @@ public class DeadbeatEntity extends TheScorchedWastelandsModElements.ModElement 
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 5, 1, 1));
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 2, 1, 1));
 	}
 
 	@Override

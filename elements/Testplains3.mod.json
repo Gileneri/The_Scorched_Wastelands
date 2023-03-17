@@ -33,16 +33,16 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "CUSTOM:aridloop"
     },
     "additionsSound": {
-      "value": "CUSTOM:aridloop"
+      "value": ""
     },
     "music": {
       "value": ""
     },
     "moodSound": {
-      "value": "CUSTOM:rarevoices"
+      "value": ""
     },
     "moodSoundDelay": 6000,
     "spawnParticles": true,
@@ -116,8 +116,8 @@
           "value": "CUSTOM:Deadbeat"
         },
         "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 20,
+        "maxGroup": 1,
+        "weight": 9,
         "spawnType": "monster"
       },
       {
@@ -125,8 +125,8 @@
           "value": "CUSTOM:MeleeDeadbeat"
         },
         "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 20,
+        "maxGroup": 1,
+        "weight": 6,
         "spawnType": "monster"
       }
     ]

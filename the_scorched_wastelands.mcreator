@@ -1167,17 +1167,45 @@
           }
         ]
       }
+    },
+    {
+      "name": "Alsphalfblock",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alsphalfblock"
+    },
+    {
+      "name": "AnotherMusicProcedure",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "another_music_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
     {
-      "name": "jukebox",
-      "type": "number",
+      "name": "dj",
+      "type": "string",
       "scope": "world",
-      "value": "0"
+      "value": ""
     },
     {
-      "name": "jukeboxshovel",
+      "name": "jukeboxtimer",
       "type": "number",
       "scope": "world",
       "value": "0"
@@ -1293,8 +1321,8 @@
       "block.the_scorched_wastelands.sign_pole": "Sign Pole",
       "block.the_scorched_wastelands.bar_support": "Bar Support",
       "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
-      "block.the_scorched_wastelands.metalsheets": "Metal sheets",
       "entity.the_scorched_wastelands.deadbeat": "Deadbeat",
+      "block.the_scorched_wastelands.metalsheets": "Metal sheets",
       "block.the_scorched_wastelands.dustywirebox": "Dusty wire box",
       "block.the_scorched_wastelands.dustygrate": "Dusty grate",
       "subtitles.aridloop": "",
@@ -1402,6 +1430,7 @@
       "block.the_scorched_wastelands.scorchedtapumme": "Scorched tapumme",
       "block.the_scorched_wastelands.metalplaqueslab": "Metal plaque slab",
       "block.the_scorched_wastelands.rusteddrain": "Rusted drain",
+      "block.the_scorched_wastelands.alsphalfblock": "Scorched alsphalf block",
       "block.the_scorched_wastelands.brokensmalldrawer": "Broken small drawer",
       "block.the_scorched_wastelands.rustycabinet": "Rusted cabinet",
       "block.the_scorched_wastelands.makeshiftmetalsheets": "Makeshift metal sheets",

@@ -33,16 +33,16 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "CUSTOM:nomads"
+      "value": "CUSTOM:aridloop"
     },
     "additionsSound": {
-      "value": "CUSTOM:aridloop"
+      "value": ""
     },
     "music": {
       "value": ""
     },
     "moodSound": {
-      "value": "CUSTOM:rarevoices"
+      "value": ""
     },
     "moodSoundDelay": 6000,
     "spawnParticles": true,

@@ -3,6 +3,8 @@ package net.mcreator.thescorchedwastelands.procedures;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.registry.Registry;
@@ -12,10 +14,8 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.thescorchedwastelands.TheScorchedWastelandsMod;
 
-import java.util.stream.Stream;
 import java.util.Map;
 import java.util.HashMap;
-import java.util.AbstractMap;
 
 public class PlayerjoinsdimencionProcedure {
 	@Mod.EventBusSubscriber
@@ -47,11 +47,38 @@ public class PlayerjoinsdimencionProcedure {
 		}
 		IWorld world = (IWorld) dependencies.get("world");
 		Entity entity = (Entity) dependencies.get("entity");
+		entity.getPersistentData().putDouble("timeinsec", 0);
 		if ((entity.world.getDimensionKey()) == (RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
 				new ResourceLocation("the_scorched_wastelands:testdimension")))) {
-			NewmusicmethodProcedure
-					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
-							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			new Object() {
+				private int ticks = 0;
+				private float waitTicks;
+				private IWorld world;
+
+				public void start(IWorld world, int waitTicks) {
+					this.waitTicks = waitTicks;
+					MinecraftForge.EVENT_BUS.register(this);
+					this.world = world;
+				}
+
+				@SubscribeEvent
+				public void tick(TickEvent.ServerTickEvent event) {
+					if (event.phase == TickEvent.Phase.END) {
+						this.ticks += 1;
+						if (this.ticks >= this.waitTicks)
+							run();
+					}
+				}
+
+				private void run() {
+					entity.getPersistentData().putBoolean("kickstart", (true));
+					entity.getPersistentData().putBoolean("indimension", (true));
+					MinecraftForge.EVENT_BUS.unregister(this);
+				}
+			}.start(world, (int) 5);
+		} else if (!((entity.world.getDimensionKey()) == (RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
+				new ResourceLocation("the_scorched_wastelands:testdimension"))))) {
+			entity.getPersistentData().putBoolean("indimension", (false));
 		}
 	}
 }

@@ -16,9 +16,7 @@ import net.minecraft.world.gen.treedecorator.CocoaTreeDecorator;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.biome.SoundAdditionsAmbience;
 import net.minecraft.world.biome.ParticleEffectAmbience;
-import net.minecraft.world.biome.MoodSoundAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
@@ -61,13 +59,8 @@ public class FarmontainsBiome extends TheScorchedWastelandsModElements.ModElemen
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-3393779).setWaterColor(-13820928).setWaterFogColor(-13819118)
 						.withSkyColor(-3393779).withFoliageColor(-11974327).withGrassColor(-13290187)
-						.setAmbientSound(
-								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-										.getValue(new ResourceLocation("the_scorched_wastelands:nomads")))
-						.setMoodSound(new MoodSoundAmbience((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-								.getValue(new ResourceLocation("the_scorched_wastelands:rarevoices")), 6000, 8, 2))
-						.setAdditionsSound(new SoundAdditionsAmbience((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-								.getValue(new ResourceLocation("the_scorched_wastelands:aridloop")), 0.0111D))
+						.setAmbientSound((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+								.getValue(new ResourceLocation("the_scorched_wastelands:aridloop")))
 						.setParticle(new ParticleEffectAmbience(ParticleTypes.ASH, 0.005f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(RedDrySandBlock.block.getDefaultState(),

@@ -48,8 +48,8 @@ public class TheScorchedWastelandsModVariables {
 
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "the_scorched_wastelands_worldvars";
-		public double jukebox = 0;
-		public double jukeboxshovel = 0;
+		public String dj = "";
+		public double jukeboxtimer = 0;
 
 		public WorldVariables() {
 			super(DATA_NAME);
@@ -61,14 +61,14 @@ public class TheScorchedWastelandsModVariables {
 
 		@Override
 		public void read(CompoundNBT nbt) {
-			jukebox = nbt.getDouble("jukebox");
-			jukeboxshovel = nbt.getDouble("jukeboxshovel");
+			dj = nbt.getString("dj");
+			jukeboxtimer = nbt.getDouble("jukeboxtimer");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
-			nbt.putDouble("jukebox", jukebox);
-			nbt.putDouble("jukeboxshovel", jukeboxshovel);
+			nbt.putString("dj", dj);
+			nbt.putDouble("jukeboxtimer", jukeboxtimer);
 			return nbt;
 		}
 
