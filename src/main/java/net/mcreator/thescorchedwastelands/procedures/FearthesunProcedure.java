@@ -70,7 +70,7 @@ public class FearthesunProcedure {
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("the_scorched_wastelands:testdimension"))) == (entity.world
 				.getDimensionKey())) {
-			if ((!(new Object() {
+			if (!(new Object() {
 				boolean check(Entity _entity) {
 					if (_entity instanceof LivingEntity) {
 						Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();
@@ -81,76 +81,89 @@ public class FearthesunProcedure {
 					}
 					return false;
 				}
-			}.check(entity)) || !(new Object() {
-				boolean check(Entity _entity) {
-					if (_entity instanceof LivingEntity) {
-						Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();
-						for (EffectInstance effect : effects) {
-							if (effect.getPotion() == ExtremeHeatPotionEffect.potion)
-								return true;
-						}
-					}
-					return false;
-				}
-			}.check(entity)))
+			}.check(entity))
 					&& !(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.CHEST) : ItemStack.EMPTY)
 							.getItem() == CoolingeppItem.body)) {
-				if (new Object() {
-					public boolean checkGamemode(Entity _ent) {
-						if (_ent instanceof ServerPlayerEntity) {
-							return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.SURVIVAL;
-						} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
-							NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
-									.getPlayerInfo(((AbstractClientPlayerEntity) _ent).getGameProfile().getId());
-							return _npi != null && _npi.getGameType() == GameType.SURVIVAL;
+				if (!(new Object() {
+					boolean check(Entity _entity) {
+						if (_entity instanceof LivingEntity) {
+							Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();
+							for (EffectInstance effect : effects) {
+								if (effect.getPotion() == ExtremeHeatPotionEffect.potion)
+									return true;
+							}
 						}
 						return false;
 					}
-				}.checkGamemode(entity) || new Object() {
-					public boolean checkGamemode(Entity _ent) {
-						if (_ent instanceof ServerPlayerEntity) {
-							return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.ADVENTURE;
-						} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
-							NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
-									.getPlayerInfo(((AbstractClientPlayerEntity) _ent).getGameProfile().getId());
-							return _npi != null && _npi.getGameType() == GameType.ADVENTURE;
+				}.check(entity))) {
+					if (new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayerEntity) {
+								return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.SURVIVAL;
+							} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
+								NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
+										.getPlayerInfo(((AbstractClientPlayerEntity) _ent).getGameProfile().getId());
+								return _npi != null && _npi.getGameType() == GameType.SURVIVAL;
+							}
+							return false;
 						}
-						return false;
-					}
-				}.checkGamemode(entity)) {
-					entity.getPersistentData().putBoolean("burningloop", (true));
-					if (world.getWorldInfo().getDayTime() < 12500) {
-						if (world.canBlockSeeSky(new BlockPos(entity.getPosX(), entity.getPosY(), entity.getPosZ()))) {
-							if (entity instanceof LivingEntity)
-								((LivingEntity) entity)
-										.setHealth((float) (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) - 1));
-							if (entity instanceof LivingEntity)
-								((LivingEntity) entity).addPotionEffect(new EffectInstance(ExtremeHeatPotionEffect.potion, (int) 20, (int) 1));
-							entity.setFire((int) 1);
-						} else if (!world.canBlockSeeSky(new BlockPos(entity.getPosX(), entity.getPosY(), entity.getPosZ()))) {
+					}.checkGamemode(entity) || new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayerEntity) {
+								return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.ADVENTURE;
+							} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
+								NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
+										.getPlayerInfo(((AbstractClientPlayerEntity) _ent).getGameProfile().getId());
+								return _npi != null && _npi.getGameType() == GameType.ADVENTURE;
+							}
+							return false;
+						}
+					}.checkGamemode(entity)) {
+						entity.getPersistentData().putBoolean("burningloop", (true));
+						if (world.getWorldInfo().getDayTime() < 12500) {
+							if (world.canBlockSeeSky(new BlockPos(entity.getPosX(), entity.getPosY(), entity.getPosZ()))) {
+								if (1 < ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1)) {
+									if (entity instanceof LivingEntity)
+										((LivingEntity) entity).setHealth(
+												(float) (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) - 1));
+									if (entity instanceof LivingEntity)
+										((LivingEntity) entity)
+												.addPotionEffect(new EffectInstance(ExtremeHeatPotionEffect.potion, (int) 20, (int) 0));
+									entity.setFire((int) 1);
+								} else if (1 == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1)) {
+									if (entity instanceof LivingEntity)
+										((LivingEntity) entity)
+												.addPotionEffect(new EffectInstance(ExtremeHeatPotionEffect.potion, (int) 20, (int) 0));
+									entity.setFire((int) 1);
+								}
+							} else if (!world.canBlockSeeSky(new BlockPos(entity.getPosX(), entity.getPosY(), entity.getPosZ()))) {
+								if (4 < ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1)) {
+									if (entity instanceof LivingEntity) {
+										((LivingEntity) entity).attackEntityFrom(new DamageSource("hot_tempature").setDamageBypassesArmor(),
+												(float) 1);
+									}
+									if (entity instanceof LivingEntity)
+										((LivingEntity) entity)
+												.addPotionEffect(new EffectInstance(HotTemperaturePotionEffect.potion, (int) 100, (int) 0));
+								} else if (4 >= ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1)) {
+									if (entity instanceof LivingEntity)
+										((LivingEntity) entity)
+												.addPotionEffect(new EffectInstance(HotTemperaturePotionEffect.potion, (int) 100, (int) 0));
+								}
+							}
+						} else if (world.getWorldInfo().getDayTime() >= 12500) {
 							if (4 < ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1)) {
 								if (entity instanceof LivingEntity) {
 									((LivingEntity) entity).attackEntityFrom(new DamageSource("hot_tempature").setDamageBypassesArmor(), (float) 1);
 								}
 								if (entity instanceof LivingEntity)
 									((LivingEntity) entity)
-											.addPotionEffect(new EffectInstance(HotTemperaturePotionEffect.potion, (int) 100, (int) 1));
+											.addPotionEffect(new EffectInstance(HotTemperaturePotionEffect.potion, (int) 100, (int) 0));
 							} else if (4 >= ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1)) {
 								if (entity instanceof LivingEntity)
 									((LivingEntity) entity)
-											.addPotionEffect(new EffectInstance(HotTemperaturePotionEffect.potion, (int) 100, (int) 1));
+											.addPotionEffect(new EffectInstance(HotTemperaturePotionEffect.potion, (int) 100, (int) 0));
 							}
-						}
-					} else if (world.getWorldInfo().getDayTime() >= 12500) {
-						if (4 < ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1)) {
-							if (entity instanceof LivingEntity) {
-								((LivingEntity) entity).attackEntityFrom(new DamageSource("hot_tempature").setDamageBypassesArmor(), (float) 1);
-							}
-							if (entity instanceof LivingEntity)
-								((LivingEntity) entity).addPotionEffect(new EffectInstance(HotTemperaturePotionEffect.potion, (int) 100, (int) 1));
-						} else if (4 >= ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1)) {
-							if (entity instanceof LivingEntity)
-								((LivingEntity) entity).addPotionEffect(new EffectInstance(HotTemperaturePotionEffect.potion, (int) 100, (int) 1));
 						}
 					}
 				}

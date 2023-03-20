@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/old_news_paper2",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/old_news_paper",
+    "particle": "the_scorched_wastelands:blocks/old_news_paper",
+    "1": "the_scorched_wastelands:blocks/old_news_paper"
+  }
+}

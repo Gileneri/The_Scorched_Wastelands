@@ -97,35 +97,6 @@
       "registry_name": "dryrock"
     },
     {
-      "name": "Stonelayerreplacement",
-      "type": "procedure",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stonelayerreplacement",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Dustywood",
       "type": "block",
       "sortid": 18,
@@ -1129,26 +1100,6 @@
       "registry_name": "femboymilkbucket"
     },
     {
-      "name": "Newmusicmethod",
-      "type": "procedure",
-      "sortid": 153,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "newmusicmethod",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Playerjoinsdimencion",
       "type": "procedure",
       "sortid": 154,
@@ -1244,6 +1195,66 @@
         "el": false,
         "eb": false,
         "ec": true
+      }
+    },
+    {
+      "name": "Oldpapers",
+      "type": "plant",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldpapers"
+    },
+    {
+      "name": "Papers",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "papers"
+    },
+    {
+      "name": "Oldpapers3",
+      "type": "plant",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldpapers_3"
+    },
+    {
+      "name": "Oldpapers2",
+      "type": "plant",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldpapers_2"
+    },
+    {
+      "name": "Oldpapers1",
+      "type": "plant",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldpapers_1"
+    },
+    {
+      "name": "Newmusicmethod",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newmusicmethod",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     }
   ],
@@ -1375,6 +1386,7 @@
       "entity.the_scorched_wastelands.deadbeat": "Deadbeat",
       "block.the_scorched_wastelands.metalsheets": "Metal sheets",
       "block.the_scorched_wastelands.dustywirebox": "Dusty wire box",
+      "block.the_scorched_wastelands.papers": "Old news papers",
       "block.the_scorched_wastelands.dustygrate": "Dusty grate",
       "subtitles.aridloop": "",
       "subtitles.desolation": "",
@@ -1383,6 +1395,7 @@
       "block.the_scorched_wastelands.rustedboiler": "Rusted boiler",
       "block.the_scorched_wastelands.rusty_locker": "Rusty Locker",
       "subtitles.rarevoices": "",
+      "block.the_scorched_wastelands.oldpapers": "Old papers",
       "block.the_scorched_wastelands.grayplatedmetal": "Gray plated beam",
       "block.the_scorched_wastelands.rustymetalplaqueslab": "Rusty metal plaque slab",
       "block.the_scorched_wastelands.dustywood": "Dustywood",
@@ -1472,7 +1485,10 @@
       "subtitles.voices": "",
       "block.the_scorched_wastelands.darkglasspane": "Dark glass pane",
       "block.the_scorched_wastelands.brokenfridge": "Broken fridge",
+      "block.the_scorched_wastelands.oldpapers_1": "Old papers 1",
       "block.the_scorched_wastelands.chainlinkfence": "Chain link fence",
+      "block.the_scorched_wastelands.oldpapers_3": "Old papers 3",
+      "block.the_scorched_wastelands.oldpapers_2": "Old papers 2",
       "block.the_scorched_wastelands.wreckeddrain": "Wrecked drain",
       "block.the_scorched_wastelands.dustycircuit": "Dusty circuit",
       "subtitles.bodyeletric": "",

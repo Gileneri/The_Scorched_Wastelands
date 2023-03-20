@@ -2,36 +2,38 @@
   "_fv": 33,
   "_type": "plant",
   "definition": {
-    "renderType": 12,
-    "texture": "rustbush3",
+    "renderType": 2,
+    "texture": "old_news_paper",
     "textureBottom": "",
-    "customModelName": "Cross model",
-    "itemTexture": "",
+    "customModelName": "old_news_paper:default",
+    "itemTexture": "oldnewspapericon",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
-    "suspiciousStewEffect": "WITHER",
-    "suspiciousStewDuration": 70,
+    "suspiciousStewEffect": "NAUSEA",
+    "suspiciousStewDuration": 40,
     "growapableSpawnType": "Desert",
     "growapableMaxHeight": 1,
     "doublePlantGenerationType": "Flower",
-    "customBoundingBox": false,
+    "customBoundingBox": true,
     "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "mz": 1.0,
+        "Mx": 17.0,
+        "My": 1.0,
+        "Mz": 15.0,
         "subtract": false
       }
     ],
-    "name": "Scorchedgrass",
-    "specialInfo": [],
+    "name": "Old papers",
+    "specialInfo": [
+      "the year on this paper is not readable"
+    ],
     "creativeTab": {
       "value": "CUSTOM:WreckedObjects"
     },
@@ -42,7 +44,7 @@
     "isSolid": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "CHAIN"
+      "value": "SNOW"
     },
     "breakSound": {
       "value": ""
@@ -61,47 +63,25 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": "CUSTOM:Junkpile"
+      "value": "CUSTOM:Papers"
     },
     "dropAmount": 1,
     "forceTicking": false,
     "emissiveRendering": false,
     "hasTileEntity": false,
-    "isReplaceable": true,
-    "colorOnMap": "SAND",
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Papers"
     },
-    "offsetType": "XZ",
+    "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
+    "flammability": 100,
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [
-      {
-        "value": "CUSTOM:Junkpile"
-      },
-      {
-        "value": "Blocks.SAND#1"
-      },
-      {
-        "value": "Blocks.SAND#0"
-      },
-      {
-        "value": "CUSTOM:DrySand"
-      },
-      {
-        "value": "CUSTOM:RedDrySand"
-      },
-      {
-        "value": "CUSTOM:Dryrock"
-      },
-      {
-        "value": "CUSTOM:Drydirt"
-      }
-    ],
-    "frequencyOnChunks": 5,
+    "canBePlacedOn": [],
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "CUSTOM:Testdimension"
     ],
@@ -119,7 +99,7 @@
         "value": "CUSTOM:Testplains3"
       }
     ],
-    "patchSize": 5,
+    "patchSize": 2,
     "generateAtAnyHeight": false
   }
 }

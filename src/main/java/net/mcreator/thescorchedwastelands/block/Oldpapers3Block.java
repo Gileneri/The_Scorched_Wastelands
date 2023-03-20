@@ -22,28 +22,32 @@ import net.minecraft.world.gen.blockplacer.SimpleBlockPlacer;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.World;
-import net.minecraft.world.IWorldReader;
 import net.minecraft.world.ISeedReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
 import net.minecraft.potion.Effects;
+import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.MobEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FlowerBlock;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -55,12 +59,12 @@ import java.util.List;
 import java.util.Collections;
 
 @TheScorchedWastelandsModElements.ModElement.Tag
-public class ScorchedgrassBlock extends TheScorchedWastelandsModElements.ModElement {
-	@ObjectHolder("the_scorched_wastelands:scorchedjunk")
+public class Oldpapers3Block extends TheScorchedWastelandsModElements.ModElement {
+	@ObjectHolder("the_scorched_wastelands:oldpapers_3")
 	public static final Block block = null;
 
-	public ScorchedgrassBlock(TheScorchedWastelandsModElements instance) {
-		super(instance, 5);
+	public Oldpapers3Block(TheScorchedWastelandsModElements instance) {
+		super(instance, 164);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -105,10 +109,10 @@ public class ScorchedgrassBlock extends TheScorchedWastelandsModElements.ModElem
 			configuredFeature = feature
 					.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
-									.tries(5).build())
-					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(5);
-			event.getRegistry().register(feature.setRegistryName("scorchedjunk"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("the_scorched_wastelands:scorchedjunk"), configuredFeature);
+									.tries(1).build())
+					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(3);
+			event.getRegistry().register(feature.setRegistryName("oldpapers_3"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("the_scorched_wastelands:oldpapers_3"), configuredFeature);
 		}
 	}
 
@@ -130,19 +134,37 @@ public class ScorchedgrassBlock extends TheScorchedWastelandsModElements.ModElem
 
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
-			super(Effects.WITHER, 70, Block.Properties.create(Material.PLANTS, MaterialColor.SAND).doesNotBlockMovement().sound(SoundType.CHAIN)
+			super(Effects.NAUSEA, 40, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.SNOW)
 					.hardnessAndResistance(0f, 0f).setLightLevel(s -> 0));
-			setRegistryName("scorchedjunk");
+			setRegistryName("oldpapers_3");
 		}
 
 		@Override
 		public int getStewEffectDuration() {
-			return 70;
+			return 40;
 		}
 
 		@Override
-		public boolean isReplaceable(BlockState state, BlockItemUseContext useContext) {
-			return useContext.getItem().getItem() != this.asItem();
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vector3d offset = state.getOffset(world, pos);
+			return VoxelShapes.or(makeCuboidShape(0, 0, 1, 17, 1, 15))
+
+					.withOffset(offset.x, offset.y, offset.z);
+		}
+
+		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 100;
+		}
+
+		@Override
+		public PathNodeType getAiPathNodeType(BlockState state, IBlockReader world, BlockPos pos, MobEntity entity) {
+			return PathNodeType.WALKABLE;
+		}
+
+		@Override
+		public Block.OffsetType getOffsetType() {
+			return Block.OffsetType.NONE;
 		}
 
 		@Override
@@ -151,30 +173,16 @@ public class ScorchedgrassBlock extends TheScorchedWastelandsModElements.ModElem
 		}
 
 		@Override
+		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
+			return new ItemStack(PapersBlock.block);
+		}
+
+		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(JunkpileBlock.block));
-		}
-
-		@Override
-		public boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			Block ground = state.getBlock();
-			return (ground == JunkpileBlock.block || ground == Blocks.RED_SAND || ground == Blocks.SAND || ground == DrySandBlock.block
-					|| ground == RedDrySandBlock.block || ground == DryrockBlock.block || ground == DrydirtBlock.block
-
-			)
-
-			;
-		}
-
-		@Override
-		public boolean isValidPosition(BlockState blockstate, IWorldReader worldIn, BlockPos pos) {
-			BlockPos blockpos = pos.down();
-			BlockState groundState = worldIn.getBlockState(blockpos);
-			Block ground = groundState.getBlock();
-			return this.isValidGround(groundState, worldIn, blockpos);
+			return Collections.singletonList(new ItemStack(PapersBlock.block));
 		}
 
 		@Override
