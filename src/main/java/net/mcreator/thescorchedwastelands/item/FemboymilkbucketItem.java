@@ -7,7 +7,6 @@ import net.minecraft.world.World;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.player.PlayerEntity;
@@ -32,7 +31,7 @@ public class FemboymilkbucketItem extends TheScorchedWastelandsModElements.ModEl
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(63).rarity(Rarity.EPIC)
+			super(new Item.Properties().group(null).maxStackSize(63).rarity(Rarity.EPIC)
 					.food((new Food.Builder()).hunger(4).saturation(0f).setAlwaysEdible().build()));
 			setRegistryName("femboymilkbucket");
 		}

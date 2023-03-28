@@ -5,7 +5,7 @@
     "effectName": "Hot Temperature",
     "icon": "hottemperatureicon.png",
     "color": {
-      "value": -1,
+      "value": -2865407,
       "falpha": 0.0
     },
     "isInstant": true,

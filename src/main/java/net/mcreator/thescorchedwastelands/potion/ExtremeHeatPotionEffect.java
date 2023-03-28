@@ -22,7 +22,7 @@ public class ExtremeHeatPotionEffect {
 
 	public static class EffectCustom extends Effect {
 		public EffectCustom() {
-			super(EffectType.HARMFUL, -1);
+			super(EffectType.HARMFUL, -4312576);
 			setRegistryName("extreme_heat");
 		}
 

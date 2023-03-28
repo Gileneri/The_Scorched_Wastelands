@@ -1251,11 +1251,31 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
         ]
       }
+    },
+    {
+      "name": "Colortest",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colortest"
     }
   ],
   "variable_elements": [
@@ -1270,6 +1290,12 @@
       "type": "number",
       "scope": "world",
       "value": "0"
+    },
+    {
+      "name": "skipvote",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -1368,6 +1394,14 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "blizzard",
+      "files": [
+        "blizzard"
+      ],
+      "category": "weather",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1418,6 +1452,7 @@
       "block.the_scorched_wastelands.scorchedjunk": "Scorchedgrass",
       "block.the_scorched_wastelands.decayedshelf": "Decayedshelf",
       "block.the_scorched_wastelands.rustedwatertank": "Rusted water tank",
+      "block.the_scorched_wastelands.colortest": "Color test",
       "block.the_scorched_wastelands.utilitypole": "Utility pole",
       "block.the_scorched_wastelands.rustedchainlinkfence": "Rusted chain link fence",
       "block.the_scorched_wastelands.smashedscreen": "Smashed screen",
@@ -1507,6 +1542,7 @@
       "block.the_scorched_wastelands.makeshiftmetalsheets": "Makeshift metal sheets",
       "block.the_scorched_wastelands.rustywall": "Rusty metal wall",
       "block.the_scorched_wastelands.rustedhexagonalsheets": "Rusted hexagonal sheets",
+      "subtitles.blizzard": "",
       "block.the_scorched_wastelands.wrecked_tv": "Wrecked TV",
       "biome.the_scorched_wastelands.testplains_3": "scorcheddunes3",
       "biome.the_scorched_wastelands.testplains_2": "scorcheddunes2",

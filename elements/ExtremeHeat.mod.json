@@ -5,7 +5,7 @@
     "effectName": "Extreme Heat",
     "icon": "extremeheaticon.png",
     "color": {
-      "value": -1,
+      "value": -4312576,
       "falpha": 0.0
     },
     "isInstant": true,

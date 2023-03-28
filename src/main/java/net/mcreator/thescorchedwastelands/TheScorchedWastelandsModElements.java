@@ -71,6 +71,8 @@ public class TheScorchedWastelandsModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("the_scorched_wastelands", "inviolate")));
 		sounds.put(new ResourceLocation("the_scorched_wastelands", "lava_exploration"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("the_scorched_wastelands", "lava_exploration")));
+		sounds.put(new ResourceLocation("the_scorched_wastelands", "blizzard"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("the_scorched_wastelands", "blizzard")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("the_scorched_wastelands").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

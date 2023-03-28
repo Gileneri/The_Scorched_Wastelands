@@ -39,7 +39,7 @@
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:blizzard"
     },
     "moodSound": {
       "value": ""
@@ -55,7 +55,7 @@
     "temperature": 2.0,
     "baseHeight": 4.0,
     "heightVariation": 0.5,
-    "spawnBiome": true,
+    "spawnBiome": false,
     "spawnBiomeNether": false,
     "spawnInCaves": false,
     "biomeWeight": 1,

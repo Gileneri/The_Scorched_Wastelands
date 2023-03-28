@@ -7,11 +7,9 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.IWorld;
-import net.minecraft.util.registry.Registry;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.RegistryKey;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.thescorchedwastelands.TheScorchedWastelandsModVariables;
 import net.mcreator.thescorchedwastelands.TheScorchedWastelandsMod;
 
 import java.util.Map;
@@ -47,38 +45,41 @@ public class PlayerjoinsdimencionProcedure {
 		}
 		IWorld world = (IWorld) dependencies.get("world");
 		Entity entity = (Entity) dependencies.get("entity");
-		entity.getPersistentData().putDouble("timeinsec", 0);
-		if ((entity.world.getDimensionKey()) == (RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
-				new ResourceLocation("the_scorched_wastelands:testdimension")))) {
-			new Object() {
-				private int ticks = 0;
-				private float waitTicks;
-				private IWorld world;
-
-				public void start(IWorld world, int waitTicks) {
-					this.waitTicks = waitTicks;
-					MinecraftForge.EVENT_BUS.register(this);
-					this.world = world;
-				}
-
-				@SubscribeEvent
-				public void tick(TickEvent.ServerTickEvent event) {
-					if (event.phase == TickEvent.Phase.END) {
-						this.ticks += 1;
-						if (this.ticks >= this.waitTicks)
-							run();
-					}
-				}
-
-				private void run() {
-					entity.getPersistentData().putBoolean("kickstart", (true));
-					entity.getPersistentData().putBoolean("indimension", (true));
-					MinecraftForge.EVENT_BUS.unregister(this);
-				}
-			}.start(world, (int) 5);
-		} else if (!((entity.world.getDimensionKey()) == (RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
-				new ResourceLocation("the_scorched_wastelands:testdimension"))))) {
-			entity.getPersistentData().putBoolean("indimension", (false));
+		entity.getPersistentData().putBoolean("punchstop", (true));
+		if ((TheScorchedWastelandsModVariables.WorldVariables.get(world).dj).equals(entity.getDisplayName().getString())) {
+			TheScorchedWastelandsModVariables.WorldVariables.get(world).dj = "[left]";
+			TheScorchedWastelandsModVariables.WorldVariables.get(world).syncData(world);
 		}
+		new Object() {
+			private int ticks = 0;
+			private float waitTicks;
+			private IWorld world;
+
+			public void start(IWorld world, int waitTicks) {
+				this.waitTicks = waitTicks;
+				MinecraftForge.EVENT_BUS.register(this);
+				this.world = world;
+			}
+
+			@SubscribeEvent
+			public void tick(TickEvent.ServerTickEvent event) {
+				if (event.phase == TickEvent.Phase.END) {
+					this.ticks += 1;
+					if (this.ticks >= this.waitTicks)
+						run();
+				}
+			}
+
+			private void run() {
+				entity.getPersistentData().putDouble("timeinsec", 0);
+				entity.getPersistentData().putBoolean("skipvote", (true));
+				TheScorchedWastelandsModVariables.WorldVariables.get(world).skipvote = (true);
+				TheScorchedWastelandsModVariables.WorldVariables.get(world).syncData(world);
+				entity.getPersistentData().putBoolean("takeover", (false));
+				entity.getPersistentData().putBoolean("punchstop", (false));
+				entity.getPersistentData().putBoolean("kickstart", (true));
+				MinecraftForge.EVENT_BUS.unregister(this);
+			}
+		}.start(world, (int) 80);
 	}
 }

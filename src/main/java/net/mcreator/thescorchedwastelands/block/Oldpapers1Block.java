@@ -51,7 +51,6 @@ import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.thescorchedwastelands.itemgroup.WreckedObjectsItemGroup;
 import net.mcreator.thescorchedwastelands.TheScorchedWastelandsModElements;
 
 import java.util.Random;
@@ -72,8 +71,7 @@ public class Oldpapers1Block extends TheScorchedWastelandsModElements.ModElement
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new BlockCustomFlower());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(WreckedObjectsItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

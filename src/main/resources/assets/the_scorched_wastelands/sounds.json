@@ -107,5 +107,14 @@
         "stream": false
       }
     ]
+  },
+  "blizzard": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:blizzard",
+        "stream": false
+      }
+    ]
   }
 }

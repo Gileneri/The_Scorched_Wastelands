@@ -50,6 +50,7 @@ public class TheScorchedWastelandsModVariables {
 		public static final String DATA_NAME = "the_scorched_wastelands_worldvars";
 		public String dj = "";
 		public double jukeboxtimer = 0;
+		public boolean skipvote = false;
 
 		public WorldVariables() {
 			super(DATA_NAME);
@@ -63,12 +64,14 @@ public class TheScorchedWastelandsModVariables {
 		public void read(CompoundNBT nbt) {
 			dj = nbt.getString("dj");
 			jukeboxtimer = nbt.getDouble("jukeboxtimer");
+			skipvote = nbt.getBoolean("skipvote");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
 			nbt.putString("dj", dj);
 			nbt.putDouble("jukeboxtimer", jukeboxtimer);
+			nbt.putBoolean("skipvote", skipvote);
 			return nbt;
 		}
 

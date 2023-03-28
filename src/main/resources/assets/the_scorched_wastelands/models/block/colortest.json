@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_scorched_wastelands:blocks/colortest",
+    "up": "the_scorched_wastelands:blocks/colortest",
+    "north": "the_scorched_wastelands:blocks/colortest",
+    "east": "the_scorched_wastelands:blocks/colortest",
+    "south": "the_scorched_wastelands:blocks/colortest",
+    "west": "the_scorched_wastelands:blocks/colortest",
+    "particle": "the_scorched_wastelands:blocks/colortest"
+  }
+}

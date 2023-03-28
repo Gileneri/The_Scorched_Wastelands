@@ -6,7 +6,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.common.BiomeManager;
 import net.minecraftforge.common.BiomeDictionary;
 
 import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
@@ -33,6 +32,7 @@ import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.particles.ParticleTypes;
+import net.minecraft.client.audio.BackgroundMusicSelector;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
@@ -59,8 +59,11 @@ public class FarmontainsBiome extends TheScorchedWastelandsModElements.ModElemen
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-3393779).setWaterColor(-13820928).setWaterFogColor(-13819118)
 						.withSkyColor(-3393779).withFoliageColor(-11974327).withGrassColor(-13290187)
-						.setAmbientSound((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-								.getValue(new ResourceLocation("the_scorched_wastelands:aridloop")))
+						.setAmbientSound(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+										.getValue(new ResourceLocation("the_scorched_wastelands:aridloop")))
+						.setMusic(new BackgroundMusicSelector((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+								.getValue(new ResourceLocation("the_scorched_wastelands:blizzard")), 12000, 24000, true))
 						.setParticle(new ParticleEffectAmbience(ParticleTypes.ASH, 0.005f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(RedDrySandBlock.block.getDefaultState(),
@@ -79,8 +82,6 @@ public class FarmontainsBiome extends TheScorchedWastelandsModElements.ModElemen
 	public void init(FMLCommonSetupEvent event) {
 		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)),
 				BiomeDictionary.Type.MOUNTAIN);
-		BiomeManager.addBiome(BiomeManager.BiomeType.DESERT,
-				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 1));
 	}
 
 	private static class CustomLeaveVineTreeDecorator extends LeaveVineTreeDecorator {
