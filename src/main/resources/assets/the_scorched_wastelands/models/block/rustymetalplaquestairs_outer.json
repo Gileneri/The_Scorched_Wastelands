@@ -1,8 +1,8 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "bottom": "the_scorched_wastelands:blocks/rusty_metal_plaque",
-    "top": "the_scorched_wastelands:blocks/rusty_metal_plaque",
-    "side": "the_scorched_wastelands:blocks/rusty_metal_plaque"
+    "bottom": "the_scorched_wastelands:blocks/rusty_metal_plaques",
+    "top": "the_scorched_wastelands:blocks/rusty_metal_plaques",
+    "side": "the_scorched_wastelands:blocks/rusty_metal_plaques"
   }
 }

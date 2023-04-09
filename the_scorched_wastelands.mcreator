@@ -312,7 +312,7 @@
       "type": "block",
       "sortid": 48,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "ironframes"
     },
     {
@@ -588,27 +588,11 @@
       "registry_name": "brokenregister"
     },
     {
-      "name": "Rustingctm",
-      "type": "block",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "rustingctm"
-    },
-    {
-      "name": "Scorchedmetal",
-      "type": "block",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "scorchedmetal"
-    },
-    {
       "name": "Grayplatedmetal",
       "type": "block",
       "sortid": 90,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "grayplatedmetal"
     },
     {
@@ -618,30 +602,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "charredmetalplating"
-    },
-    {
-      "name": "Dotedpanel",
-      "type": "block",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "dotedpanel"
-    },
-    {
-      "name": "Rustygrate",
-      "type": "block",
-      "sortid": 93,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "rustygrate"
-    },
-    {
-      "name": "Grate",
-      "type": "block",
-      "sortid": 94,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "grate"
     },
     {
       "name": "Dustyglass",
@@ -664,7 +624,7 @@
       "type": "block",
       "sortid": 97,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "dustygrate"
     },
     {
@@ -672,7 +632,7 @@
       "type": "block",
       "sortid": 98,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "scorchedplating"
     },
     {
@@ -680,7 +640,7 @@
       "type": "block",
       "sortid": 99,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "rustyscafolding"
     },
     {
@@ -688,7 +648,7 @@
       "type": "block",
       "sortid": 100,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "dustycircuit"
     },
     {
@@ -696,7 +656,7 @@
       "type": "block",
       "sortid": 101,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "rustyboltedplates"
     },
     {
@@ -704,7 +664,7 @@
       "type": "block",
       "sortid": 102,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "rustedbars"
     },
     {
@@ -712,7 +672,7 @@
       "type": "block",
       "sortid": 103,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "rustedplates"
     },
     {
@@ -720,7 +680,7 @@
       "type": "block",
       "sortid": 104,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "metalsheets"
     },
     {
@@ -728,7 +688,7 @@
       "type": "block",
       "sortid": 105,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "scorchedhazardtape"
     },
     {
@@ -736,7 +696,7 @@
       "type": "block",
       "sortid": 106,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "scorchedtapumme"
     },
     {
@@ -744,23 +704,15 @@
       "type": "block",
       "sortid": 107,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "makeshiftmetalsheets"
-    },
-    {
-      "name": "Rustedhexagonalsheets",
-      "type": "block",
-      "sortid": 108,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "rustedhexagonalsheets"
     },
     {
       "name": "Metaliccolumn",
       "type": "block",
       "sortid": 109,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "metaliccolumn"
     },
     {
@@ -768,23 +720,15 @@
       "type": "block",
       "sortid": 110,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "scorchedcargoplating"
-    },
-    {
-      "name": "Wreckeddrain",
-      "type": "block",
-      "sortid": 111,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "wreckeddrain"
     },
     {
       "name": "Slopedrustpanel",
       "type": "block",
       "sortid": 112,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "slopedrustpanel"
     },
     {
@@ -896,7 +840,7 @@
       "type": "block",
       "sortid": 126,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "chainlinkfence"
     },
     {
@@ -904,16 +848,8 @@
       "type": "block",
       "sortid": 127,
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "rustedchainlinkfence"
-    },
-    {
-      "name": "Rusteddrain",
-      "type": "block",
-      "sortid": 128,
-      "compiles": true,
       "locked_code": false,
-      "registry_name": "rusteddrain"
+      "registry_name": "rustedchainlinkfence"
     },
     {
       "name": "Erodedmetalpanels",
@@ -922,14 +858,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "erodedmetalpanels"
-    },
-    {
-      "name": "Junktech",
-      "type": "block",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "junktech"
     },
     {
       "name": "Brokenfridge",
@@ -1090,14 +1018,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "waitpotion"
-    },
-    {
-      "name": "Femboymilkbucket",
-      "type": "item",
-      "sortid": 152,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "femboymilkbucket"
     },
     {
       "name": "Playerjoinsdimencion",
@@ -1276,6 +1196,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "colortest"
+    },
+    {
+      "name": "Junktech",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "junktech"
     }
   ],
   "variable_elements": [
@@ -1402,6 +1330,30 @@
       ],
       "category": "weather",
       "subtitle": ""
+    },
+    {
+      "name": "crystal_exploration_1",
+      "files": [
+        "crystal-exploration1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "crystal_exploration_2",
+      "files": [
+        "crystal-exploration2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "lava_exploration_2",
+      "files": [
+        "lava-exploration2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1431,6 +1383,8 @@
       "subtitles.rarevoices": "",
       "block.the_scorched_wastelands.oldpapers": "Old papers",
       "block.the_scorched_wastelands.grayplatedmetal": "Gray plated beam",
+      "subtitles.crystal_exploration_2": "",
+      "subtitles.crystal_exploration_1": "",
       "block.the_scorched_wastelands.rustymetalplaqueslab": "Rusty metal plaque slab",
       "block.the_scorched_wastelands.dustywood": "Dustywood",
       "subtitles.junkfootstep": "junkfootstep",
@@ -1438,7 +1392,6 @@
       "block.the_scorched_wastelands.bigbrokendrawer": "Big broken drawer",
       "block.the_scorched_wastelands.wreckedconsole": "Wrecked console",
       "item.the_scorched_wastelands.melee_deadbeat_spawn_egg": "Deadbeat Swordsman Spawn Egg",
-      "block.the_scorched_wastelands.dotedpanel": "Doted panel",
       "block.the_scorched_wastelands.toxicwastebarrel": "Toxic waste barrel",
       "subtitles.nomads": "",
       "block.the_scorched_wastelands.olddebris": "Old debris",
@@ -1458,20 +1411,18 @@
       "block.the_scorched_wastelands.smashedscreen": "Smashed screen",
       "block.the_scorched_wastelands.smallvent": "Small vent",
       "block.the_scorched_wastelands.scorched_bench": "Scorched Bench",
-      "block.the_scorched_wastelands.junktech": "Junk tech",
       "block.the_scorched_wastelands.sign_top": "Sign Top",
+      "block.the_scorched_wastelands.junktech": "Junk tech ",
       "block.the_scorched_wastelands.oldbed": "Old bed",
       "block.the_scorched_wastelands.platedmetalslab": "Platedmetalslab",
       "block.the_scorched_wastelands.rusted_broken_fan": "Rusted broken fan",
       "block.the_scorched_wastelands.supplies_shelf": "Supplies Shelf",
       "block.the_scorched_wastelands.rustedchair": "Rusted chair",
-      "block.the_scorched_wastelands.grate": "Grate",
       "block.the_scorched_wastelands.platedmetal": "Plated metal",
       "subtitles.ultramarine": "",
       "subtitles.bodyeletricmusic": "",
       "block.the_scorched_wastelands.red_dry_sand": "Dry Sand",
       "itemGroup.tabwrecked_objects": "Wrecked Objects",
-      "block.the_scorched_wastelands.rustingctm": "Dark scorched metal",
       "item.the_scorched_wastelands.heavy_dull_blade": "Heavy Dull Blade",
       "block.the_scorched_wastelands.littletable": "Littletable",
       "block.the_scorched_wastelands.brokentrafficlights": "Broken traffic lights",
@@ -1481,12 +1432,11 @@
       "block.the_scorched_wastelands.oldglasspane": "Old glass pane",
       "block.the_scorched_wastelands.horizontalwreckedvent": "Horizontal wrecked vent",
       "block.the_scorched_wastelands.brokenradiocabinet": "Broken radio cabinet",
-      "item.the_scorched_wastelands.femboymilkbucket": "Femboy milk bucket",
       "block.the_scorched_wastelands.brokentelevisionset": "Broken television set",
+      "subtitles.lava_exploration_2": "",
       "block.the_scorched_wastelands.brokenregister": "Broken register",
       "block.the_scorched_wastelands.diagonalwreckedvent": "Diagonal wrecked vent",
       "entity.the_scorched_wastelands.melee_deadbeat": "Deadbeat Swordsman",
-      "block.the_scorched_wastelands.scorchedmetal": "Scorchedmetal",
       "block.the_scorched_wastelands.scorchedhazardtape": "Scorched hazard tape",
       "subtitles.desert_exploration": "",
       "block.the_scorched_wastelands.dryrock": "Dryrock",
@@ -1499,7 +1449,6 @@
       "block.the_scorched_wastelands.poletop": "Pole top",
       "block.the_scorched_wastelands.rustymetal": "Rusty metal",
       "block.the_scorched_wastelands.copperrebbar": "Copperrebbar",
-      "block.the_scorched_wastelands.rustygrate": "Rusty grate",
       "item.the_scorched_wastelands.testdimension": "Teleporter Core",
       "block.the_scorched_wastelands.ironframes": "Iron frames",
       "block.the_scorched_wastelands.wreckedcontrolpanel": "Wrecked control panel",
@@ -1524,7 +1473,6 @@
       "block.the_scorched_wastelands.chainlinkfence": "Chain link fence",
       "block.the_scorched_wastelands.oldpapers_3": "Old papers 3",
       "block.the_scorched_wastelands.oldpapers_2": "Old papers 2",
-      "block.the_scorched_wastelands.wreckeddrain": "Wrecked drain",
       "block.the_scorched_wastelands.dustycircuit": "Dusty circuit",
       "subtitles.bodyeletric": "",
       "block.the_scorched_wastelands.brokencounter": "Broken counter",
@@ -1534,14 +1482,12 @@
       "item.the_scorched_wastelands.rusty_blade": "Rusty Blade",
       "block.the_scorched_wastelands.scorchedtapumme": "Scorched tapumme",
       "block.the_scorched_wastelands.metalplaqueslab": "Metal plaque slab",
-      "block.the_scorched_wastelands.rusteddrain": "Rusted drain",
       "block.the_scorched_wastelands.alsphalfblock": "Scorched alsphalf block",
       "effect.hot_temperature": "Hot Temperature",
       "block.the_scorched_wastelands.brokensmalldrawer": "Broken small drawer",
       "block.the_scorched_wastelands.rustycabinet": "Rusted cabinet",
       "block.the_scorched_wastelands.makeshiftmetalsheets": "Makeshift metal sheets",
       "block.the_scorched_wastelands.rustywall": "Rusty metal wall",
-      "block.the_scorched_wastelands.rustedhexagonalsheets": "Rusted hexagonal sheets",
       "subtitles.blizzard": "",
       "block.the_scorched_wastelands.wrecked_tv": "Wrecked TV",
       "biome.the_scorched_wastelands.testplains_3": "scorcheddunes3",

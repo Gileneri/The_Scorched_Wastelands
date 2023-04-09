@@ -171,7 +171,7 @@ public class NewmusicmethodProcedure {
 								TheScorchedWastelandsModVariables.WorldVariables.get(world).syncData(world);
 								entity.getPersistentData().putBoolean("kickstart", (true));
 							} else if (entity.getPersistentData().getDouble("timeinsec") == 0) {
-								entity.getPersistentData().putDouble("playtrack", (MathHelper.nextInt(new Random(), 1, 6)));
+								entity.getPersistentData().putDouble("playtrack", (MathHelper.nextInt(new Random(), 1, 9)));
 								if (entity.getPersistentData().getDouble("playtrack") == entity.getPersistentData().getDouble("lasttrack")) {
 									entity.getPersistentData().putBoolean("kickstart", (true));
 								} else if (entity.getPersistentData().getDouble("playtrack") != entity.getPersistentData().getDouble("lasttrack")) {
@@ -290,6 +290,48 @@ public class NewmusicmethodProcedure {
 										}
 										entity.getPersistentData().putDouble("timeinmin", 3);
 										entity.getPersistentData().putDouble("timeinsec", 5);
+									} else if (entity.getPersistentData().getDouble("playtrack") == 7) {
+										if (world instanceof World && !world.isRemote()) {
+											((World) world).playSound(null, new BlockPos(0, 0, 0),
+													(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+															.getValue(new ResourceLocation("the_scorched_wastelands:crystal_exploration_1")),
+													SoundCategory.AMBIENT, (float) 3.4028235677973366e+38, (float) 1);
+										} else {
+											((World) world).playSound(0, 0, 0,
+													(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+															.getValue(new ResourceLocation("the_scorched_wastelands:crystal_exploration_1")),
+													SoundCategory.AMBIENT, (float) 3.4028235677973366e+38, (float) 1, false);
+										}
+										entity.getPersistentData().putDouble("timeinmin", 3);
+										entity.getPersistentData().putDouble("timeinsec", 5);
+									} else if (entity.getPersistentData().getDouble("playtrack") == 8) {
+										if (world instanceof World && !world.isRemote()) {
+											((World) world).playSound(null, new BlockPos(0, 0, 0),
+													(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+															.getValue(new ResourceLocation("the_scorched_wastelands:crystal_exploration_2")),
+													SoundCategory.AMBIENT, (float) 3.4028235677973366e+38, (float) 1);
+										} else {
+											((World) world).playSound(0, 0, 0,
+													(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+															.getValue(new ResourceLocation("the_scorched_wastelands:crystal_exploration_2")),
+													SoundCategory.AMBIENT, (float) 3.4028235677973366e+38, (float) 1, false);
+										}
+										entity.getPersistentData().putDouble("timeinmin", 4);
+										entity.getPersistentData().putDouble("timeinsec", 20);
+									} else if (entity.getPersistentData().getDouble("playtrack") == 9) {
+										if (world instanceof World && !world.isRemote()) {
+											((World) world).playSound(null, new BlockPos(0, 0, 0),
+													(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+															.getValue(new ResourceLocation("the_scorched_wastelands:lava_exploration_2")),
+													SoundCategory.AMBIENT, (float) 3.4028235677973366e+38, (float) 1);
+										} else {
+											((World) world).playSound(0, 0, 0,
+													(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+															.getValue(new ResourceLocation("the_scorched_wastelands:lava_exploration_2")),
+													SoundCategory.AMBIENT, (float) 3.4028235677973366e+38, (float) 1, false);
+										}
+										entity.getPersistentData().putDouble("timeinmin", 4);
+										entity.getPersistentData().putDouble("timeinsec", 48);
 									}
 								}
 							}

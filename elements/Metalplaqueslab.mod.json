@@ -2,10 +2,10 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "metal_plaque",
-    "textureTop": "metal_plaque",
+    "texture": "metal_plaques",
+    "textureTop": "metal_plaques",
     "textureLeft": "",
-    "textureFront": "metal_plaque",
+    "textureFront": "metal_plaques",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,

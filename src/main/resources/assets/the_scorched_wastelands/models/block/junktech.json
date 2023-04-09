@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "the_scorched_wastelands:blocks/junk_tech",
-    "particle": "the_scorched_wastelands:blocks/junk_tech"
+    "down": "the_scorched_wastelands:blocks/junktech0",
+    "up": "the_scorched_wastelands:blocks/junktech0",
+    "north": "the_scorched_wastelands:blocks/junktech0",
+    "east": "the_scorched_wastelands:blocks/junktech0",
+    "south": "the_scorched_wastelands:blocks/junktech0",
+    "west": "the_scorched_wastelands:blocks/junktech0",
+    "particle": "the_scorched_wastelands:blocks/junktech0"
   }
 }

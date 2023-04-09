@@ -1,7 +1,15 @@
 {
   "variants": {
-    "": {
-      "model": "the_scorched_wastelands:block/junktech"
-    }
+    "":  [
+	{"model": "the_scorched_wastelands:block/junktech"},
+	{"model": "the_scorched_wastelands:block/junktech1"},
+	{"model": "the_scorched_wastelands:block/junktech2"},	
+	{"model": "the_scorched_wastelands:block/junktech3"},
+	{"model": "the_scorched_wastelands:block/junktech4"},
+	{"model": "the_scorched_wastelands:block/junktech5"},
+	{"model": "the_scorched_wastelands:block/junktech6"},
+	{"model": "the_scorched_wastelands:block/junktech7"},
+	{"model": "the_scorched_wastelands:block/junktech8"}
+	]
   }
 }

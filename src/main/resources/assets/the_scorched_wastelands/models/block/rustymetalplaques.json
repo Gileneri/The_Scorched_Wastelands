@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "the_scorched_wastelands:blocks/rusty_metal_plaque",
-    "particle": "the_scorched_wastelands:blocks/rusty_metal_plaque"
+    "all": "the_scorched_wastelands:blocks/rusty_metal_plaques",
+    "particle": "the_scorched_wastelands:blocks/rusty_metal_plaques"
   }
 }

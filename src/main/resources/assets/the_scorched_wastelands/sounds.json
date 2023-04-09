@@ -116,5 +116,32 @@
         "stream": false
       }
     ]
+  },
+  "crystal_exploration_1": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:crystal-exploration1",
+        "stream": false
+      }
+    ]
+  },
+  "crystal_exploration_2": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:crystal-exploration2",
+        "stream": false
+      }
+    ]
+  },
+  "lava_exploration_2": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "the_scorched_wastelands:lava-exploration2",
+        "stream": false
+      }
+    ]
   }
 }

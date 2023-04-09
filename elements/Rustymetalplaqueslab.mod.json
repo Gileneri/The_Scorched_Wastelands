@@ -2,10 +2,10 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "rusty_metal_plaque",
-    "textureTop": "rusty_metal_plaque",
+    "texture": "rusty_metal_plaques",
+    "textureTop": "rusty_metal_plaques",
     "textureLeft": "",
-    "textureFront": "rusty_metal_plaque",
+    "textureFront": "rusty_metal_plaques",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,

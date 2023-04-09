@@ -2,14 +2,14 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "junk_tech",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "junktech0",
+    "textureTop": "junktech0",
+    "textureLeft": "junktech0",
+    "textureFront": "junktech0",
+    "textureRight": "junktech0",
+    "textureBack": "junktech0",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,10 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Junk tech",
+    "name": "Junk tech ",
     "specialInfo": [],
     "hardness": 1.0,
-    "resistance": 4.0,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -124,7 +124,6 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface",
       "CUSTOM:Testdimension"
     ],
     "restrictionBiomes": [
@@ -135,21 +134,27 @@
         "value": "CUSTOM:Testplains"
       },
       {
+        "value": "CUSTOM:Testplains2"
+      },
+      {
         "value": "CUSTOM:Testplains3"
       }
     ],
     "blocksToReplace": [
       {
+        "value": "CUSTOM:RedDrySand"
+      },
+      {
         "value": "CUSTOM:Drydirt"
       },
       {
-        "value": "CUSTOM:RedDrySand"
+        "value": "CUSTOM:Dryrock"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 5,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 50,
-    "maxGenerateHeight": 128
+    "frequencyOnChunk": 15,
+    "minGenerateHeight": 60,
+    "maxGenerateHeight": 120
   }
 }

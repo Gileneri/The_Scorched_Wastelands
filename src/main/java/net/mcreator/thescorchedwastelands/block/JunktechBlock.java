@@ -47,7 +47,7 @@ public class JunktechBlock extends TheScorchedWastelandsModElements.ModElement {
 	public static final Block block = null;
 
 	public JunktechBlock(TheScorchedWastelandsModElements instance) {
-		super(instance, 130);
+		super(instance, 167);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -61,7 +61,7 @@ public class JunktechBlock extends TheScorchedWastelandsModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.LANTERN).hardnessAndResistance(1f, 4f).setLightLevel(s -> 0).harvestLevel(2)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.LANTERN).hardnessAndResistance(1f, 6f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("junktech");
 		}
@@ -90,9 +90,11 @@ public class JunktechBlock extends TheScorchedWastelandsModElements.ModElement {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
+			if (blockAt.getBlock() == RedDrySandBlock.block)
+				blockCriteria = true;
 			if (blockAt.getBlock() == DrydirtBlock.block)
 				blockCriteria = true;
-			if (blockAt.getBlock() == RedDrySandBlock.block)
+			if (blockAt.getBlock() == DryrockBlock.block)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -112,8 +114,6 @@ public class JunktechBlock extends TheScorchedWastelandsModElements.ModElement {
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == World.OVERWORLD)
-						dimensionCriteria = true;
 					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
 							new ResourceLocation("the_scorched_wastelands:testdimension")))
 						dimensionCriteria = true;
@@ -122,7 +122,7 @@ public class JunktechBlock extends TheScorchedWastelandsModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(128)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 15)).range(120)
 					.square().func_242731_b(5);
 			event.getRegistry().register(feature.setRegistryName("junktech"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("the_scorched_wastelands:junktech"), configuredFeature);
@@ -135,6 +135,8 @@ public class JunktechBlock extends TheScorchedWastelandsModElements.ModElement {
 		if (new ResourceLocation("the_scorched_wastelands:farmontains").equals(event.getName()))
 			biomeCriteria = true;
 		if (new ResourceLocation("the_scorched_wastelands:testplains").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("the_scorched_wastelands:testplains_2").equals(event.getName()))
 			biomeCriteria = true;
 		if (new ResourceLocation("the_scorched_wastelands:testplains_3").equals(event.getName()))
 			biomeCriteria = true;
