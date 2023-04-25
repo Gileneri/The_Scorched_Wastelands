@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "the_scorched_wastelands:blocks/scorched_column_side",
-    "particle": "the_scorched_wastelands:blocks/scorched_column_side"
+    "down": "the_scorched_wastelands:blocks/scorched_column-top",
+    "up": "the_scorched_wastelands:blocks/scorched_column-top",
+    "north": "the_scorched_wastelands:blocks/scorched_column_side",
+    "east": "the_scorched_wastelands:blocks/scorched_column_side",
+    "south": "the_scorched_wastelands:blocks/scorched_column_side",
+    "west": "the_scorched_wastelands:blocks/scorched_column_side",
+    "particle": "the_scorched_wastelands:blocks/scorched_column-top"
   }
 }

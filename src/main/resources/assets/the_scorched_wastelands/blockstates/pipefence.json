@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_scorched_wastelands:block/pipefence"
+    },
+    "facing=east": {
+      "model": "the_scorched_wastelands:block/pipefence",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_scorched_wastelands:block/pipefence",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_scorched_wastelands:block/pipefence",
+      "y": 270
+    }
+  }
+}

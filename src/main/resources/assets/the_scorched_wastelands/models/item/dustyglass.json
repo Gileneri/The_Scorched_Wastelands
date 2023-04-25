@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "the_scorched_wastelands:blocks/dusty_glass"
-  }
-}

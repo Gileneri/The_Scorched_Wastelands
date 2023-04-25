@@ -2,8 +2,8 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "old_glass_pane",
-    "textureTop": "old_glass_pane",
+    "texture": "old_glass",
+    "textureTop": "old_glass",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",

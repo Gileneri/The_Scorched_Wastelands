@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_scorched_wastelands:blocks/rustyplatingdown",
+    "up": "the_scorched_wastelands:blocks/rustyplatingup",
+    "north": "the_scorched_wastelands:blocks/rivetlessrustypanel",
+    "east": "the_scorched_wastelands:blocks/rivetlessrustypanel",
+    "south": "the_scorched_wastelands:blocks/rivetlessrustypanel",
+    "west": "the_scorched_wastelands:blocks/rivetlessrustypanel",
+    "particle": "the_scorched_wastelands:blocks/rustyplatingdown"
+  }
+}

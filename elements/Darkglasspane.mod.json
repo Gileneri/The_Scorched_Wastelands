@@ -2,8 +2,8 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "dark_glass_pane",
-    "textureTop": "",
+    "texture": "dark_glass",
+    "textureTop": "dark_glass",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",

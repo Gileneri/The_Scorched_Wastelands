@@ -1,6 +1,6 @@
 {
   "parent": "block/template_glass_pane_noside_alt",
   "textures": {
-    "pane": "the_scorched_wastelands:blocks/old_glass_pane"
+    "pane": "the_scorched_wastelands:blocks/old_glass"
   }
 }

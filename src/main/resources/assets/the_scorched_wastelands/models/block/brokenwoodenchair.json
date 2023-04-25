@@ -1,0 +1,8 @@
+{
+  "parent": "the_scorched_wastelands:custom/broken_wooden_chair",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/broken_wooden_chair",
+    "particle": "the_scorched_wastelands:blocks/broken_wooden_chair",
+    "0": "the_scorched_wastelands:blocks/broken_wooden_chair"
+  }
+}

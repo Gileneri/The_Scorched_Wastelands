@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/roughstone",
+    "particle": "the_scorched_wastelands:blocks/roughstone"
+  }
+}

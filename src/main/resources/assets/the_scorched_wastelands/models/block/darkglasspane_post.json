@@ -1,7 +1,7 @@
 {
   "parent": "block/template_glass_pane_post",
   "textures": {
-    "edge": "the_scorched_wastelands:blocks/dark_glass_pane",
-    "pane": "the_scorched_wastelands:blocks/dark_glass_pane"
+    "edge": "the_scorched_wastelands:blocks/dark_glass",
+    "pane": "the_scorched_wastelands:blocks/dark_glass"
   }
 }
