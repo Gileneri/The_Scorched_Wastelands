@@ -5,7 +5,7 @@
       "type": "block",
       "sortid": 1,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "junkpile"
     },
     {
@@ -22,7 +22,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "scorchedjunk"
+      "registry_name": "scorchedjunk",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "ScorchedDebris",
@@ -30,7 +31,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "scorched_debris"
+      "registry_name": "scorched_debris",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "ScorchedBush",
@@ -38,7 +40,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "scorched_bush"
+      "registry_name": "scorched_bush",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Deadbeat",
@@ -85,7 +88,7 @@
       "type": "block",
       "sortid": 15,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "red_dry_sand"
     },
     {
@@ -110,7 +113,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "poletop"
+      "registry_name": "poletop",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Telephonepole",
@@ -126,7 +130,8 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "utilitypole"
+      "registry_name": "utilitypole",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Utilitypole2",
@@ -182,7 +187,8 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rustedcrate"
+      "registry_name": "rustedcrate",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Rustedcrate1gui",
@@ -198,7 +204,8 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "smallrustedcrate"
+      "registry_name": "smallrustedcrate",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Smallrustedcrategui",
@@ -229,7 +236,7 @@
       "type": "block",
       "sortid": 35,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "rustymetal"
     },
     {
@@ -237,7 +244,7 @@
       "type": "block",
       "sortid": 36,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "platedmetal"
     },
     {
@@ -246,7 +253,8 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "copperrebbar"
+      "registry_name": "copperrebbar",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Platedmetalslab",
@@ -270,7 +278,8 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "testplains"
+      "registry_name": "testplains",
+      "path": "~/ScorchedCityBiomes"
     },
     {
       "name": "Testplains2",
@@ -278,7 +287,8 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "testplains_2"
+      "registry_name": "testplains_2",
+      "path": "~/ScorchedCityBiomes"
     },
     {
       "name": "Testdimension",
@@ -297,7 +307,8 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "testplains_3"
+      "registry_name": "testplains_3",
+      "path": "~/ScorchedCityBiomes"
     },
     {
       "name": "Farmontains",
@@ -305,14 +316,15 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "farmontains"
+      "registry_name": "farmontains",
+      "path": "~/ScorchedCityBiomes"
     },
     {
       "name": "Ironframes",
       "type": "block",
       "sortid": 48,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "ironframes"
     },
     {
@@ -321,7 +333,8 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sign_pole"
+      "registry_name": "sign_pole",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "SignTop",
@@ -329,7 +342,8 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sign_top"
+      "registry_name": "sign_top",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Rustysidewalk",
@@ -345,7 +359,8 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bar_support"
+      "registry_name": "bar_support",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Gasstation",
@@ -361,7 +376,8 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "scorched_bench"
+      "registry_name": "scorched_bench",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Benches",
@@ -377,7 +393,8 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dumpster"
+      "registry_name": "dumpster",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Erodedstore",
@@ -401,7 +418,8 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brockeneletricbox"
+      "registry_name": "brockeneletricbox",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Rustystreet",
@@ -417,7 +435,8 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "supplies_shelf"
+      "registry_name": "supplies_shelf",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Wreckedvent",
@@ -425,7 +444,8 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wreckedvent"
+      "registry_name": "wreckedvent",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Wreckedvendingmachine",
@@ -433,7 +453,8 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wreckedvendingmachine"
+      "registry_name": "wreckedvendingmachine",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "WreckedTV",
@@ -441,7 +462,8 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wrecked_tv"
+      "registry_name": "wrecked_tv",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "HeavyDullBlade",
@@ -457,7 +479,8 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rusted_table"
+      "registry_name": "rusted_table",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Hangingwires",
@@ -465,7 +488,8 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hangingwires"
+      "registry_name": "hangingwires",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Littletable",
@@ -473,7 +497,8 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "littletable"
+      "registry_name": "littletable",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Smashedscreen",
@@ -481,7 +506,8 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "smashedscreen"
+      "registry_name": "smashedscreen",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "RustyLocker",
@@ -489,7 +515,8 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rusty_locker"
+      "registry_name": "rusty_locker",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "RustedLocker",
@@ -505,7 +532,8 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rusted_broken_fan"
+      "registry_name": "rusted_broken_fan",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Wreckedcrate",
@@ -513,7 +541,8 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wreckedcrate"
+      "registry_name": "wreckedcrate",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "WreckedObjects",
@@ -521,7 +550,8 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wrecked_objects"
+      "registry_name": "wrecked_objects",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Brokenterminal",
@@ -529,7 +559,8 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brokenterminal"
+      "registry_name": "brokenterminal",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Wreckedconsole",
@@ -537,7 +568,8 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wreckedconsole"
+      "registry_name": "wreckedconsole",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Wreckedcontrolpanel",
@@ -545,7 +577,8 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wreckedcontrolpanel"
+      "registry_name": "wreckedcontrolpanel",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Rustedchair",
@@ -553,7 +586,8 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rustedchair"
+      "registry_name": "rustedchair",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Rustedboiler",
@@ -561,7 +595,8 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rustedboiler"
+      "registry_name": "rustedboiler",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Brokentable",
@@ -569,7 +604,8 @@
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brokentable"
+      "registry_name": "brokentable",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Decayedshelf",
@@ -577,7 +613,8 @@
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "decayedshelf"
+      "registry_name": "decayedshelf",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Brokenregister",
@@ -585,7 +622,8 @@
       "sortid": 87,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brokenregister"
+      "registry_name": "brokenregister",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Grayplatedmetal",
@@ -720,7 +758,7 @@
       "type": "block",
       "sortid": 113,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "rustytech"
     },
     {
@@ -865,7 +903,8 @@
       "sortid": 133,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brokensmalldrawer"
+      "registry_name": "brokensmalldrawer",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Brokentelevisionset",
@@ -1107,7 +1146,8 @@
       "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "oldpapers"
+      "registry_name": "oldpapers",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Papers",
@@ -1131,7 +1171,8 @@
       "sortid": 164,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "oldpapers_2"
+      "registry_name": "oldpapers_2",
+      "path": "~/ScorchedCityObjects"
     },
     {
       "name": "Oldpapers1",
@@ -1178,7 +1219,7 @@
       "type": "block",
       "sortid": 167,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "junktech"
     },
     {
@@ -1236,6 +1277,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rivetrustyplating"
+    },
+    {
+      "name": "Rustygrate",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustygrate"
+    },
+    {
+      "name": "Skyscraper1",
+      "type": "structure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyscraper_1"
     }
   ],
   "variable_elements": [
@@ -1390,8 +1447,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.the_scorched_wastelands.erodedmetalpanels": "Eroded metal panels",
       "subtitles.lava_exploration": "",
+      "block.the_scorched_wastelands.erodedmetalpanels": "Eroded metal panels",
       "block.the_scorched_wastelands.slopedrustpanel": "Sloped rust panel",
       "block.the_scorched_wastelands.scorchedcargoplating": "Scorched cargo plating",
       "block.the_scorched_wastelands.oldglass": "Old glass",
@@ -1400,12 +1457,12 @@
       "block.the_scorched_wastelands.wreckedcrate": "Wrecked crate",
       "block.the_scorched_wastelands.wreckedvent": "Wrecked Vent",
       "block.the_scorched_wastelands.sign_pole": "Sign Pole",
-      "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
       "block.the_scorched_wastelands.bar_support": "Bar Support",
-      "block.the_scorched_wastelands.metalsheets": "Metal sheets",
+      "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
       "entity.the_scorched_wastelands.deadbeat": "Deadbeat",
-      "block.the_scorched_wastelands.papers": "Old news papers",
+      "block.the_scorched_wastelands.metalsheets": "Metal sheets",
       "block.the_scorched_wastelands.dustywirebox": "Dusty wire box",
+      "block.the_scorched_wastelands.papers": "Old news papers",
       "block.the_scorched_wastelands.dustygrate": "Dusty grate",
       "subtitles.aridloop": "",
       "subtitles.desolation": "",
@@ -1486,6 +1543,7 @@
       "block.the_scorched_wastelands.poletop": "Pole top",
       "block.the_scorched_wastelands.rustymetal": "Rusty metal",
       "block.the_scorched_wastelands.copperrebbar": "Copperrebbar",
+      "block.the_scorched_wastelands.rustygrate": "Rusty grate",
       "item.the_scorched_wastelands.testdimension": "Teleporter Core",
       "block.the_scorched_wastelands.ironframes": "Iron frames",
       "block.the_scorched_wastelands.wreckedcontrolpanel": "Wrecked control panel",
@@ -1541,7 +1599,16 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "ScorchedCityBiomes",
+        "children": []
+      },
+      {
+        "name": "ScorchedCityObjects",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "the_scorched_wastelands",
@@ -1561,5 +1628,5 @@
     "modElementsPackage": "net.mcreator.thescorchedwastelands",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200345616
 }

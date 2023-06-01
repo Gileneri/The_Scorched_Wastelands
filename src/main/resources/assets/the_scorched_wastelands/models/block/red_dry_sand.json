@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "the_scorched_wastelands:blocks/send1",
-    "up": "the_scorched_wastelands:blocks/send1",
-    "north": "the_scorched_wastelands:blocks/send1",
-    "east": "the_scorched_wastelands:blocks/send1",
-    "south": "the_scorched_wastelands:blocks/send1",
-    "west": "the_scorched_wastelands:blocks/send1",
+    "all": "the_scorched_wastelands:blocks/send1",
     "particle": "the_scorched_wastelands:blocks/send1"
   }
 }

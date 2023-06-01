@@ -1,15 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "the_scorched_wastelands:block/rustytech"},
-	{"model": "the_scorched_wastelands:block/rustytech1"},
-	{"model": "the_scorched_wastelands:block/rustytech2"},	
-	{"model": "the_scorched_wastelands:block/rustytech3"},
-	{"model": "the_scorched_wastelands:block/rustytech4"},
-	{"model": "the_scorched_wastelands:block/rustytech5"},
-	{"model": "the_scorched_wastelands:block/rustytech6"},
-	{"model": "the_scorched_wastelands:block/rustytech7"},
-	{"model": "the_scorched_wastelands:block/rustytech8"}
-	]
+    "": {
+      "model": "the_scorched_wastelands:block/rustytech"
+    }
   }
 }

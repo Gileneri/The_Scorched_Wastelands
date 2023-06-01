@@ -24,21 +24,10 @@ import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
-import net.minecraft.entity.ai.goal.SwimGoal;
-import net.minecraft.entity.ai.goal.ReturnToVillageGoal;
-import net.minecraft.entity.ai.goal.RandomWalkingGoal;
-import net.minecraft.entity.ai.goal.RandomSwimmingGoal;
-import net.minecraft.entity.ai.goal.OpenDoorGoal;
-import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
-import net.minecraft.entity.ai.goal.MeleeAttackGoal;
-import net.minecraft.entity.ai.goal.LookRandomlyGoal;
-import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.MobEntity;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
@@ -125,20 +114,7 @@ public class MeleeDeadbeatEntity extends TheScorchedWastelandsModElements.ModEle
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, true, true));
-			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, true) {
-				@Override
-				protected double getAttackReachSqr(LivingEntity entity) {
-					return (double) (4.0 + entity.getWidth() * entity.getWidth());
-				}
-			});
-			this.targetSelector.addGoal(3, new HurtByTargetGoal(this).setCallsForHelp());
-			this.goalSelector.addGoal(4, new RandomWalkingGoal(this, 1));
-			this.goalSelector.addGoal(5, new OpenDoorGoal(this, true));
-			this.goalSelector.addGoal(6, new ReturnToVillageGoal(this, 0.6, false));
-			this.goalSelector.addGoal(7, new RandomSwimmingGoal(this, 1, 40));
-			this.goalSelector.addGoal(8, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(9, new SwimGoal(this));
+
 		}
 
 		@Override

@@ -1,13 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "the_scorched_wastelands:block/rustymetal"},
-	{"model": "the_scorched_wastelands:block/rustymetal1"},
-	{"model": "the_scorched_wastelands:block/rustymetal2"},	
-	{"model": "the_scorched_wastelands:block/rustymetal3"},
-	{"model": "the_scorched_wastelands:block/rustymetal4"},
-	{"model": "the_scorched_wastelands:block/rustymetal5"},
-	{"model": "the_scorched_wastelands:block/rustymetal6"}
-	]
+    "": {
+      "model": "the_scorched_wastelands:block/rustymetal"
+    }
   }
 }

@@ -1,12 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "the_scorched_wastelands:block/platedmetal"},
-	{"model": "the_scorched_wastelands:block/platedmetal1"},
-	{"model": "the_scorched_wastelands:block/platedmetal2"},	
-	{"model": "the_scorched_wastelands:block/platedmetal3"},
-	{"model": "the_scorched_wastelands:block/platedmetal4"},
-	{"model": "the_scorched_wastelands:block/platedmetal5"}
-	]
+    "": {
+      "model": "the_scorched_wastelands:block/platedmetal"
+    }
   }
 }
